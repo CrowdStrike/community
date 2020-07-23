@@ -34,9 +34,10 @@ Once manager approval has both been provided via EMail, send the proposal descri
   - Once all the steps above have been completed, the code may be released as approved.
  
 **4. Updates**
+
  Future updates to code released through this process do not need to be resubmitted for approval outlined in step 1. Instead, such updates only require steps 2-3 to be completed prior to release.
  
- For questions about open sourcing internal technology, please contact David Foley in Legal: [mdavid.foley@crowdstrike.com](mailto:david.foley@crowdstrike.com).
+ For questions about open sourcing internal technology, please contact David Foley in Legal: [david.foley@crowdstrike.com](mailto:david.foley@crowdstrike.com).
 
 ### Personal Participation in Open Source
 Guidance on personal projects will go here.
