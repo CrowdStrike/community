@@ -4,6 +4,23 @@ In development. EVERYTHING HERE IS CURRENTLY DRAFT! Pull requests appreciated an
 
 The purpose of this policy is to outline the process for CrowdStrike personnel to release open source code. This policy applies to all types of projects (i) that relate to CrowdStrike's business or CrowdStrike's actual or demonstratably anticipated research and development, (ii) written on CrowdStrike time, and/or (iii) written using CrowdStrike resources.
 
+- [CrowdStrike's Open Source Policy &amp; Contribution Guide](#crowdstrike-s-open-source-policy--amp--contribution-guide)
+  * [Joining the CrowdStrike GitHub Org](#joining-the-crowdstrike-github-org)
+  * [Creating Open Source Projects](#creating-open-source-projects)
+    + [Initiating CrowdStrike Projects](#initiating-crowdstrike-projects)
+    + [Contributing to a Third Party (community) Projects](#contributing-to-a-third-party--community--projects)
+    + [Open Sourcing Previously Internal-Only Projects](#open-sourcing-previously-internal-only-projects)
+    + [Personal Participation in Open Source](#personal-participation-in-open-source)
+  * [Consumption of Open Source](#consumption-of-open-source)
+    + [Process](#process)
+    + [Compliance](#compliance)
+    + [Ongoing Verification](#ongoing-verification)
+  * [Open Source Licenses](#open-source-licenses)
+      - [Acceptable Licenses](#acceptable-licenses)
+  * [GitHub Account Guidelines](#github-account-guidelines)
+    + [Account Settings](#account-settings)
+    
+
 ## Joining the CrowdStrike GitHub Org
 [Open a ticket in this repo](https://github.com/CrowdStrike/Open-Source-Policy/issues) outlining who you are (name, @crowdstrike.com EMail). Someone will reach out to you on the internal slack to verify and create your account.
 
