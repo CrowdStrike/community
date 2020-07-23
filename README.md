@@ -42,6 +42,41 @@ Once manager approval has both been provided via EMail, send the proposal descri
 ### Personal Participation in Open Source
 Guidance on personal projects will go here.
 
+## Consumption of Open Source
+CrowdStrike employees and contractors may only use open source software in connection with the development, support, or provision of CrowdStrike offerings in compliance with this policy.
+
+### Process
+
+**1. Approval**
+* To request approval for the usage of a particular open source software package, create anew row on the OSS Usage page on the internal wiki following the current template. You must fill in the following information for the specific portion of our code this open source software will be used in:
+   * Name and version of the open source software package
+   * The dates of such usage and when the open source software was retrieved
+   * URL of the open source software package/project web page
+   * The type of license; if multiple licenses are used for a project, then each license needs to be liste
+   * Whether the open source sofreware is (or will be) modified or unmodified
+   * How the open source software is implemented in the CrowdStrike offering (e.g., standalone binary, dynamic/static linking, Imported (dynamic languages), etc.)
+
+* Once the listing has been added, please send an email for approval referencing such listing along with a description of how it is used and why we need the open source software to the following:
+    * Someone in your management chain who holds a Director title or above and/or a Principle Engineer
+    * [legal@crowdstrike.com](mailto:legal@crowdstrike.com), as follows:
+      * If the OSS will be part of any offering distributed to a third-party company, include [legal@crowdstrike.com](mailto:legal@crowdstrike.com)
+      * If the OSS will be part of an offering that is hosted only, but the license is not listed as "Approved" under the [Acceptable Licenses](#Acceptable-Licenses) matrix below, include [legal@crowdstrike.com](mailto:legal@crowdstrike.com)
+      * If the OSS will be part of an offering that is hosted only and the license is listed as "Approved" under the [Acceptable Licenses](#Acceptable-Licenses) matrix below, no further legal approvals are necessary and the requester may put "Legal Pre-Approved" in the "Legal Approved" column.
+
+**2. Visibility**
+Once manager and legal approvals have both been provided via email, send a notification of the update to [oss-request@crowdstrike.com](mailto:oss-request@crowdstrike.com). This alias is for awareness and will have members from legal and engineering.
+
+**3. Tracking**
+* Once OSS has been approved for a particular use case, the OSS package may be used as approved. The request for approval and subsequent approvals should be left on the OSS disclosure page on the Wiki for tracking purposes.
+* If the OSS usage is not approved, the proposed approval request should be removed from the OSS disclosure page on the wiki.
+
+### Compliance
+Most OSS licenses require some degree of informational compliance when distributing (e.g. providing attribution, copies of licenses or source code, or identifying modified files). Affirmative efforts must be made to ensure compliance requirements are met even when OSS with an "Approved" license is used. Please develop an appropriate compliance plan and consult with CrowdStrike legal if you are unsure of the compliance obligations for any open source software.
+
+### Ongoing Verification
+Automated WhiteSource scans performed by CrowdStrike shall be reviewed periodically to verify compliance and tracking of open source software.
+
+
 ## Open Source Licenses
 #### Acceptable Licenses
 The following chart identifies licenses which are pre-approved by CrowdStrike legal and those that require additional review.
