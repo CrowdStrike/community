@@ -20,9 +20,7 @@ Members of CrowdStrike's Engineering organization should follow the engineering 
 
 * Regardless of license choice, your LICENSE file should contain:
   + Language explicitly stating the project content is provided "as is" without warranty. Both The Unlicense and MIT License has this language.
-  + A explicit statement, most likely in your README, stating your initiative is a *project* and not *product*. Set expectations upfront and guide the community to your projects collaboration spaces. For example, on the [FalconPy SDK Project](https://github.com/CrowdStrike/falconpy), the following language was used.
-
-* Individual files in your project do not need licensing incorporated into the top of the file. Use a whole-of-project LISCENSE file.
+  + A explicit statement, most likely in your README, stating your initiative is a *project* and not *product*. Set expectations upfront and guide the community to your projects collaboration spaces. For example, on the [FalconPy SDK Project](https://github.com/CrowdStrike/falconpy), the following language was used:
 
 ```
 # Support & Community Forums
@@ -38,6 +36,9 @@ GitHub Discussions provide the community with means to communicate. There are fo
   * :pray: [**Q&A**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AQ%26A): Have a question about how to accomplish something? A usability question? Submit them here!
   * :raised_hands: [**Show and Tell**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3A%22Show+and+tell%22): Share with the community what you're up to! Perhaps this is letting everyone know about your upcoming conference talk, share a project that has embedded FalconPy, or your recent blog.
 ```
+
+* Individual files in your project do not need licensing incorporated into the top of the file. Use a whole-of-project LISCENSE file.
+
 
 ### Upstream Participation
 **No special permission is needed to contribute to upstream projects or communities**. 
