@@ -1,138 +1,54 @@
 # CrowdStrike's Open Source Policy &amp; Contribution Guide
 
-In development. EVERYTHING HERE IS CURRENTLY DRAFT! Pull requests appreciated and welcome as we further develop our open source usage and contribution guidelines. 
+Pull requests appreciated and welcome as we further develop our open source usage and contribution guidelines. 
 
-The purpose of this policy is to outline the process for CrowdStrike personnel to release open source code. This policy applies to all types of projects (i) that relate to CrowdStrike's business or CrowdStrike's actual or demonstratably anticipated research and development, (ii) written on CrowdStrike time, and/or (iii) written using CrowdStrike resources.
-
-- [CrowdStrike's Open Source Policy &amp; Contribution Guide](#crowdstrike-s-open-source-policy--amp--contribution-guide)
-  * [Joining the CrowdStrike GitHub Org](#joining-the-crowdstrike-github-org)
-  * [Creating Open Source Projects](#creating-open-source-projects)
-    + [Initiating CrowdStrike Projects](#initiating-crowdstrike-projects)
-    + [Contributing to a Third Party (community) Projects](#contributing-to-a-third-party--community--projects)
-    + [Open Sourcing Previously Internal-Only Projects](#open-sourcing-previously-internal-only-projects)
-    + [Personal Participation in Open Source](#personal-participation-in-open-source)
-  * [Consumption of Open Source](#consumption-of-open-source)
-    + [Process](#process)
-    + [Compliance](#compliance)
-    + [Ongoing Verification](#ongoing-verification)
-  * [Open Source Licenses](#open-source-licenses)
-      - [Acceptable Licenses](#acceptable-licenses)
-  * [GitHub Account Guidelines](#github-account-guidelines)
-    + [Account Settings](#account-settings)
+- [Guidance for CrowdStrike Engineering](#guidance-for-crowdstrike-engineering)
+- [Guidance for Solution Architecture](#guidance-for-solution-architecture)
+    + [Project Licensing](#project-licensing)
+    + [Upstream Participation](#upstream-participation)
+- [Administrativia](#administrativia)
+  * [Joining the CrowdStrike GitHub Organization](#joining-the-crowdstrike-github-organization)
     
+## Guidance for CrowdStrike Engineering
+Members of CrowdStrike's Engineering organization should follow the engineering open source process and contribution guidance as documented on the internal engineering wiki.
 
-## Joining the CrowdStrike GitHub Org
-[Open a ticket in this repo](https://github.com/CrowdStrike/Open-Source-Policy/issues) outlining who you are (name, @crowdstrike.com EMail). Someone will reach out to you on the internal slack to verify and create your account.
+## Guidance for Solution Architecture
+### Project Licensing
+* **Use the most permissive license possible with a bias towards community building**. This will often be [The Unlicense](https://opensource.org/licenses/unlicense), or if copyright should be retained, [The MIT License](https://opensource.org/licenses/MIT) is popular.
 
-Should you not receive a response in 1-2 days, ping ``#github-management`` on internal Slack.
+* If your project is content focused, such as training materials and coursebooks, consider one of the licenses from [Creative Commons](https://creativecommons.org/choose/).
 
-## Creating Open Source Projects
-Anything that risks CrowdStrike's competitive advantage should not be released as open source. Any code released as open source should be generally useful, such as fix bugs in an open source project, rather than a CrowdStrike-specific application. In addition, no code may be released as open source that incorporates CrowdStrike proprietary information.
+* Regardless of license choice, your LICENSE file should contain:
+  + Language explicitly stating the project content is provided "as is" without warranty. Both The Unlicense and MIT License has this language.
+  + A explicit statement, most likely in your README, stating your initiative is a *project* and not *product*. Set expectations upfront and guide the community to your projects collaboration spaces. For example, on the [FalconPy SDK Project](https://github.com/CrowdStrike/falconpy), the following language was used.
 
-### Initiating CrowdStrike Projects
-Guidance on initiating "official" CrowdStrike projects, under the CrowdStrike GitHub Org, is TBD.
+* Individual files in your project do not need licensing incorporated into the top of the file. Use a whole-of-project LISCENSE file.
 
-### Contributing to a Third Party (community) Projects
-Guidance on official participation in broader community projects (eg as part of your day job) is TBD
+```
+# Support & Community Forums
+FalconPy is an open source project, not a formal CrowdStrike product, to assist developers implement CrowdStrike's APIs within their applications. As such it carries no formal support, express or implied. 
 
-### Open Sourcing Previously Internal-Only Projects
-**1. Approval**
+:fire: Is something going wrong? :fire:<br/>
+GitHub Issues are used to report bugs. Submit a ticket here:<br/>
+[https://github.com/CrowdStrike/falconpy/issues/new/choose](https://github.com/CrowdStrike/falconpy/issues/new/choose)
 
-After you have confirmed that your proposed contribution is within the scope of permitted release as outlined in this policy, please send an EMail outlining the details of the contribution for approval to your manager or someone in your management chain who holds a Director title or above.
+GitHub Discussions provide the community with means to communicate. There are four discussion categories:
+  * :speech_balloon: [**General**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AGeneral) : Catch all for general discussions. 
+  * :bulb: [**Ideas**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AIdeas): Have a suggestion for a feature request? Is there something the community or project could improve upon? Let us know here.
+  * :pray: [**Q&A**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AQ%26A): Have a question about how to accomplish something? A usability question? Submit them here!
+  * :raised_hands: [**Show and Tell**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3A%22Show+and+tell%22): Share with the community what you're up to! Perhaps this is letting everyone know about your upcoming conference talk, share a project that has embedded FalconPy, or your recent blog.
+```
 
-**2. Visiblilty**
+### Upstream Participation
+**No special permission is needed to contribute to upstream projects or communities**. 
 
-Once manager approval has both been provided via EMail, send the proposal description and the names of the approvers to CrowdStrike Engineering's open source team.
-
-**3. Release**
-
-  - All code must be approved by a Principal Engineer (if you fall within the Engineering org) or a Senior Solution Architect (if you reside within the Solution Architecture org).
-  - Add the details of the release and applicable approvals in the CrowdStrike internal wiki. Legal/Finance will have access to this for intellectual property due dilligence reasons.
-  - Once all the steps above have been completed, the code may be released as approved.
- 
-**4. Updates**
-
- Future updates to code released through this process do not need to be resubmitted for approval outlined in step 1. Instead, such updates only require steps 2-3 to be completed prior to release.
- 
- For questions about open sourcing internal technology, please contact David Foley in Legal: [david.foley@crowdstrike.com](mailto:david.foley@crowdstrike.com).
-
-### Personal Participation in Open Source
-Guidance on personal projects will go here.
-
-## Consumption of Open Source
-CrowdStrike employees and contractors may only use open source software in connection with the development, support, or provision of CrowdStrike offerings in compliance with this policy.
-
-### Process
-
-**1. Approval**
-* To request approval for the usage of a particular open source software package, create anew row on the OSS Usage page on the internal wiki following the current template. You must fill in the following information for the specific portion of our code this open source software will be used in:
-   * Name and version of the open source software package
-   * The dates of such usage and when the open source software was retrieved
-   * URL of the open source software package/project web page
-   * The type of license; if multiple licenses are used for a project, then each license needs to be liste
-   * Whether the open source sofreware is (or will be) modified or unmodified
-   * How the open source software is implemented in the CrowdStrike offering (e.g., standalone binary, dynamic/static linking, Imported (dynamic languages), etc.)
-
-* Once the listing has been added, please send an email for approval referencing such listing along with a description of how it is used and why we need the open source software to the following:
-    * Someone in your management chain who holds a Director title or above and/or a Principle Engineer
-    * [legal@crowdstrike.com](mailto:legal@crowdstrike.com), as follows:
-      * If the OSS will be part of any offering distributed to a third-party company, include [legal@crowdstrike.com](mailto:legal@crowdstrike.com)
-      * If the OSS will be part of an offering that is hosted only, but the license is not listed as "Approved" under the [Acceptable Licenses](#Acceptable-Licenses) matrix below, include [legal@crowdstrike.com](mailto:legal@crowdstrike.com)
-      * If the OSS will be part of an offering that is hosted only and the license is listed as "Approved" under the [Acceptable Licenses](#Acceptable-Licenses) matrix below, no further legal approvals are necessary and the requester may put "Legal Pre-Approved" in the "Legal Approved" column.
-
-**2. Visibility**
-Once manager and legal approvals have both been provided via email, send a notification of the update to CrowdStrike's open source team. This alias is for awareness and will have members from legal and engineering.
-
-**3. Tracking**
-* Once OSS has been approved for a particular use case, the OSS package may be used as approved. The request for approval and subsequent approvals should be left on the OSS disclosure page on the Wiki for tracking purposes.
-* If the OSS usage is not approved, the proposed approval request should be removed from the OSS disclosure page on the wiki.
-
-### Compliance
-Most OSS licenses require some degree of informational compliance when distributing (e.g. providing attribution, copies of licenses or source code, or identifying modified files). Affirmative efforts must be made to ensure compliance requirements are met even when OSS with an "Approved" license is used. Please develop an appropriate compliance plan and consult with CrowdStrike legal if you are unsure of the compliance obligations for any open source software.
-
-### Ongoing Verification
-Automated WhiteSource scans performed by CrowdStrike shall be reviewed periodically to verify compliance and tracking of open source software.
+Do not release code into open source projects that incorporates CrowdStrike proprietary information. Speak with your team lead or manager, and if further clarification is needed, refer to Shawn Wells [[shawn.wells@crowdstrike.com](mailto:shawn.wells@crowdstrike.com)].
 
 
-## Open Source Licenses
-#### Acceptable Licenses
-The following chart identifies licenses which are pre-approved by CrowdStrike legal and those that require additional review.
+# Administrativia
+## Joining the CrowdStrike GitHub Organization
+* [Open a ticket in this repo](https://github.com/CrowdStrike/Open-Source-Policy/issues) outlining who you are (name, @crowdstrike.com EMail). Someone will reach out to you on the internal slack to verify and create your account.
 
-| License | Hosted only, not delivered | Distributed - unmodified | Distributed - modified |
-|:--------|:--------------------------:|:------------------------:|:----------------------:|
-| BSD | Approved | Approved | Approved |
-| MIT | Approved | Approved | Approved |
-| ZLIB | Approved | Approved | Approved |
-| ISC | Approved | Approved | Approved |
-| Apache | Approved | Approved | Approved |
-| Mozilla | Approved | Approved | *Requires Approval* |
-| Eclipse | Approved | Approved | *Requires Approval* |
-| CDDL | Approved | Approved | *Requires Approval* |
-| LGPL v2.1 | Approved | *Requires Approval* | *Requires Approval* |
-| GPL v2 | *Requires Approval* | *Requires Approval* | *Requires Approval* |
-| GPL / LGPL v3 | *Requires Approval* | *Requires Approval* | **Prohibited** |
-| "Affero" Licenses (AGPL) | **Prohibited** | **Prohibited** | **Prohibited** |
-| [OSL](https://opensource.org/licenses/OSL-3.0) | **Prohibited** | **Prohibited** | **Prohibited** |
-| [EUPL](https://joinup.ec.europa.eu/collection/eupl/eupl-text-11-12) | **Prohibited** | **Prohibited** | **Prohibited** |
-| [CPAL](https://opensource.org/licenses/CPAL-1.0) | **Prohibited** | **Prohibited** | **Prohibited** |
-| [Sleepycat](https://opensource.org/licenses/Sleepycat) | **Prohibited** | **Prohibited** | **Prohibited** |
+* Should you not receive a response in 1-2 days, ping ``#github-management`` on internal Slack.
 
-Any other license not listed above requires approval by [legal@crowdstrike.com](mailto:legal@crowdstrike.com).
-
-A list of licenses being reviewed:
-
-| License | Description |
-| ------- | ----------- |
-| [Creative Commons Zero (CCO)](https://creativecommons.org/publicdomain/zero/1.0/) | Public domain dedication, recommended as a way to disclaim copyright to the maximum extent possible. |
-| [Unlicense](https://unlicense.org/) | Free and unencumbered software released into the public domain. At CrowdStrike this is often used for scripts and automation snippets (eg CloudFormation templates). |
-| GNU LGPL | |
-| Apache 2.0 | |
-| BSD 2-Clause License | |
-| BSD 3-Clause License | |
-
-
-
-## GitHub Account Guidelines
-
-### Account Settings
-* Enable MFA
+* Accounts associated with CrowdStrike's corporate GitHub organization require [Two-factor Authentication (2FA)](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) to be enabled.
