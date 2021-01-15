@@ -37,7 +37,7 @@ GitHub Discussions provide the community with means to communicate. There are fo
   * :raised_hands: [**Show and Tell**](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3A%22Show+and+tell%22): Share with the community what you're up to! Perhaps this is letting everyone know about your upcoming conference talk, share a project that has embedded FalconPy, or your recent blog.
 ```
 
-* Individual files in your project do not need licensing incorporated into the top of the file. Use a whole-of-project LISCENSE file.
+* Individual files in your project do not need licensing incorporated into the top of the file. Use a whole-of-project LICENSE file.
 
 
 ### Upstream Participation
