@@ -1,8 +1,8 @@
 > This is a sample for use within other CrowdStrike projects.
-> Update the "CONTACT_NAME@crowdstrike.com" reference and remove
-> this comment before publishing.
+> Update the "[REPO_TITLE]" and "CONTACT_NAME@crowdstrike.com" references,
+> and then remove this comment before publishing.
 
-# Contributor Covenant Code of Conduct
+# [REPO_TITLE] Code of Conduct
 
 ## Our Pledge
 
