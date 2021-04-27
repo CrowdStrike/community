@@ -1,0 +1,11 @@
+title: CrowdStrike Open Source
+description: >-
+  The following open source software was developed by CrowdStrike
+  and is available to the public.
+notification_banner: false
+
+sass:
+  style: compressed
+
+remote_theme: 18F/uswds-jekyll@v4.2.0
+
