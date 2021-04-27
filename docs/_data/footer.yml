@@ -37,7 +37,7 @@ heading: CrowdStrike Inc
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: https://raw.githubusercontent.com/redhatrises/community/main/images/crowdstrike-logo.svg
+  - src: https://raw.githubusercontent.com/crowdstrike/community/main/docs/images/crowdstrike-logo.svg
     alt: CRWD
 
 # Configuration for footer contact links
