@@ -1,0 +1,12 @@
+{
+  "list": [
+    {
+      "name": "falcon-helm",
+      "html_url": "https://github.com/crowdstrike/falcon-helm",
+      "forks_count": 287,
+      "stargazers_count": 1306,
+      "description": "Helm operator and charts for running CrowdStrike Falcon with Kubernetes",
+      "homepage": ""
+    }
+  ]
+}

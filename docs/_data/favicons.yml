@@ -1,0 +1,6 @@
+# This is the configuration for the site favicons.
+
+- rel: icon
+  type: image/svg
+  href: https://raw.githubusercontent.com/redhatrises/community/main/images/crowdstrike-logo.svg
+
