@@ -13,20 +13,22 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
+        working-directory: ./docs
     - name: Cache gems
       uses: actions/cache@v2
       with:
-        path: ~/vendor/bundle
+        path: ./docs/vendor/bundle
         key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: ${{ runner.os }}-gem
     - name: Test site build
       run: |
+        cd ./docs
         ruby --version
         gem install bundler
-        bundle config path ~/vendor/bundle
+        bundle config path ./vendor/bundle
         bundle install --jobs 4 --retry 3
         bundle exec jekyll build
     - name: Upload site
