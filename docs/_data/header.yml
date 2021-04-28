@@ -6,7 +6,7 @@
 
 # Show or hide the official USA banner at the top of the site.
 # Comment out to the following line to hide.
-#usa_banner: true
+usa_banner: false
 
 # This setting changes the TLD used as an argument for trust in banner.html.
 # If options besides .mil and .gov are added, it may be worth adding a JS
@@ -21,8 +21,9 @@ type: extended
 # Configuration for site header logo
 # If the logo is external add external: true
 logo:
-  src: https://raw.githubusercontent.com/crowdstrike/community/main/docs/images/crowdstrike-logo.svg
-  alt: CRWD
+  src: /assets/img/crowdstrike-logo.svg
+  alt: CrowdStrike Logo
+  external: false
 
 # this is a key into _data/navigation.yml
 primary:
