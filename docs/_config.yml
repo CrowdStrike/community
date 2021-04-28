@@ -56,3 +56,5 @@ autoprefixer:
     - last 2 versions
     - IE 11
     - not dead
+
+remote_theme: 18F/uswds-jekyll
