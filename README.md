@@ -1,10 +1,7 @@
-# CrowdStrike's Open Source Policy &amp; Contribution Guide
+# Welcome!
+This is the code behind https://crowdstrike.github.io/community/
 
-Pull requests appreciated and welcome as we further develop our open source usage and contribution guidelines. 
-
-- [Guidance for CrowdStrike Engineering](#guidance-for-crowdstrike-engineering)
-- [Guidance for Solution Architecture](#guidance-for-solution-architecture)
-    + [Project Licensing](#project-licensing)
-    + [Upstream Participation](#upstream-participation)
-- [Administrativia](#administrativia)
-  * [Joining the CrowdStrike GitHub Organization](#joining-the-crowdstrike-github-organization)
+On that webpage, you can find content such as:
+- [List of CrowdStrike's Open Source Projects](https://crowdstrike.github.io/community/)
+- [Guidance for CrowdStrike Engineering](https://crowdstrike.github.io/community/open-source-policy/#engineering)
+- [Guidance for All Other Departments/Orgs](https://crowdstrike.github.io/community/open-source-policy/#everyone-else)
