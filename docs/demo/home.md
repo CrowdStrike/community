@@ -5,7 +5,7 @@ permalink: /
 layout: home
 
 hero:
-  image: /assets/img/image.png
+  image: /assets/img/crwd-banner-01.png
   callout:
     alt: "Featured Project:"
     text: gofalcon
