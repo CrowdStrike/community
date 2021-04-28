@@ -1,5 +1,7 @@
 ---
+main: foo, bar, qaz
 ---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
@@ -8,27 +10,24 @@
     {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
-    <link href="{{ site.baseurl }}/css/crowdstrike.css" rel="stylesheet" type="text/css">
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 
     {% include skipnav.html %}
     {% include header.html %}
 
-    {% if site.notification_banner %}
-      {% include notification-banner.html %}
-    {% endif %}
-
     {% assign hero = page.hero %}
     {% include components/hero.html %}
 
     {% if page.tagline and page.intro %}
-    <section class="usa-grid usa-section">
-      <div class="usa-width-one-third">
-        <h2>{{ page.tagline }}</h2>
-      </div>
-      <div class="usa-width-two-thirds">
-        {{ page.intro | markdownify }}
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">{{ page.tagline }}</h2>
+        </div>
+        <div class="tablet:grid-col-8 usa-prose">
+          {{ page.intro | markdownify }}
+        </div>
       </div>
     </section>
     {% endif %}
@@ -41,9 +40,13 @@
       {{ _graphics }}
     {% endif %}
 
-    <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
-          {{ content }}
-    </main>
+    {% if page.layout == 'post' %}
+      {{ content }}
+    {% else %}
+      <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
+        {{ content }}
+      </main>
+    {% endif %}
 
     {% if page.graphics_position == 'after' %}
       {{ _graphics }}

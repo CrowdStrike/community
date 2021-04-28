@@ -11,73 +11,85 @@
 # primary:
 #   links: primary
 #
+primary:
+  - text: Home
+    href: /
+  - text: Open Source Policies
+    links:
+      - text: CrowdStrike Engineering
+        href: /open-source-policy/#engineering
+      - text: All Other Departments
+        href: /open-source-policy/#everyone-else
+#      - text: Demo link C
+#        href: /two/c/
+#      - text: Demo link D
+#        href: /two/a/
+#      - text: Demo link E
+#        href: /two/b/
+#      - text: Demo link F
+#        href: /two/c/
+#  - text: Referenced section
+#    links: footer
+#  - text: External link
+#    href: https://18f.gsa.gov
+#    external: true
 
-secondary:
-  - text: CrowdStrike Inc GitHub
-    href: https://github.com/crowdstrike
-    external: true
-  - text: CrowdStrike Developer API Documents
-    href: https://developer.crowdstrike.com
-    external: true
-  - text: CrowdStrike Inc 
-    href: https://crowdstrike.com
-    external: true
+#secondary:
+#  - text: Documentation
+#    href: /docs/
+#  - text: Theme
+#    href: /theme/
 
 docs:
   - text: Sidenav Documentation
     href: /docs/
-  - text: Sidenav Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Sidenav Referenced section
-    links: footer
   - text: Sidenav External link
     href: https://18f.gsa.gov
     external: true
 
-footer:
-  - text: CrowdStrike.com
-    href: https://crowdstrike.com
-    external: true
-# Uncomment the items below and comment the items above in the `footer` list
-# to use footer link columns in the 'big' footer style.
-  # - text: Documentation
-  #   links:
-  #     - text: Overview
-  #       href: /docs/
-  #     - text: Secondary documentation page
-  #       href: /docs/two/
-  #     - text: Tertiary docs
-  #       href: /docs/three/
-  # - text: Navigation section
-  #   links:
-  #     - text: Demo link A
-  #       href: /two/a/
-  #     - text: Demo link B
-  #       href: /two/b/
-  #     - text: Demo link C
-  #       href: /two/c/
-  # - text: Referenced section
-  #   links:
-  #     - text: Demo link A
-  #       href: /three/a/
-  #     - text: Demo link B
-  #       href: /three/b/
-  #     - text: Demo link C
-  #       href: /three/c/
-  # - text: External links
-  #   links:
-  #     - text: 18F
-  #       href: https://18f.gsa.gov
-  #       external: true
-  #     - text: Technology Transformation Service
-  #       href: https://join.tts.gsa.gov/
-  #       external: true
-  #     - text: code.gov
-  #       href: https://code.gov/
-  #       external: true
+open-source-policy:
+  - text: Open Source Policy
+    href: /open-source-policy/
+
+# Uncomment the 'links' sections below to use footer link columns
+# with the 'big' footer style.
+#footer:
+#  - text: Documentation
+#    href: /docs/
+#    links:
+#      - text: Overview
+#        href: /docs/
+#      - text: Secondary documentation page
+#        href: /docs/two/
+#      - text: Tertiary docs
+#        href: /docs/three/
+#  - text: Navigation section
+#    href: /docs/
+#    links:
+#      - text: Demo link A
+#        href: /two/a/
+#      - text: Demo link B
+#        href: /two/b/
+#      - text: Demo link C
+#        href: /two/c/
+#  - text: External links
+#    href: /docs/
+#    links:
+#      - text: 18F
+#        href: https://18f.gsa.gov
+#        external: true
+#      - text: Technology Transformation Service
+#        href: https://join.tts.gsa.gov/
+#        external: true
+#      - text: code.gov
+#        href: https://code.gov/
+#        external: true
+#  - text: Privacy policy
+#    href: /docs/
+#   links:
+#     - text: Demo link A
+#       href: /three/a/
+#     - text: Demo link B
+#       href: /three/b/
+#     - text: Demo link C
+#       href: /three/c/
