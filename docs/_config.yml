@@ -58,3 +58,5 @@ autoprefixer:
     - not dead
 
 remote_theme: 18F/uswds-jekyll
+
+theme: jekyll-theme-cayman
