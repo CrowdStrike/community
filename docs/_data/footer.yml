@@ -58,10 +58,10 @@ contact:
       href: https://www.youtube.com/channel/UCsRdY9CtEVWTNO4ulwfzqVA
       external: true
       type: youtube
-    - text: LinkedIn
-      href: https://www.linkedin.com/company/CrowdStrike
-      external: true
-      type: LinkedIn
+#    - text: LinkedIn
+#      href: https://www.linkedin.com/company/CrowdStrike
+#      external: true
+#      type: linkedin
     - text: Instagram
       href: https://www.instagram.com/crowdstrike/?hl=en
       external: true
