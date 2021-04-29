@@ -26,5 +26,10 @@ jobs:
         run: |
           ./scripts/generate-github-data.py -i ./docs/repos.yaml -o ./docs/_data/repos.json
           git add ./docs/_data/repos.json
-          git commit -m "Update repos.json with the latest information"
-          git push
+          if [ $? -eq 0 ]; then
+            echo "Skipping... nothing to commit"
+            exit 0
+          else
+            git commit -m "Updating repos.json metadata as of `date +'%Y-%m-%d %H:%M:%S'`"
+            git push
+          fi
