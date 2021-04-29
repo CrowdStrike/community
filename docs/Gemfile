@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gemspec :name => 'uswds-jekyll'
+gem 'jekyll-remote-theme'
 
 group :jekyll_plugins do
   # Only put the optional plugins here. Required plugins should go in the gemspec.
