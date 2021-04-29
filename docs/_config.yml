@@ -26,7 +26,7 @@ anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 # Enables Private Eye functionality.
 # See https://github.com/18F/private-eye for more information.
 # Private Eye configuration is in assets/js/main.js
-private_eye: true
+private_eye: false
 
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
@@ -59,4 +59,4 @@ autoprefixer:
 
 remote_theme: 18F/uswds-jekyll
 
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
