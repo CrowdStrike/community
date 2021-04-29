@@ -1,0 +1,30 @@
+name: "Update GitHub repo data"
+on:
+  schedule:
+  - cron: "0 0 1 * *"
+  push:
+    branches: [ main ]
+
+jobs:
+  repo_list_update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git 
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+      - name: Install python3-github
+        run: sudo apt install python3-github
+
+      - name: Update repos.json
+        run: |
+          ./scripts/generate-github-data.py -i ./docs/repos.yaml -o ./docs/_data/repos.json
+          git add ./docs/_data/repos.json
+          git commit -m "Update repos.json with the latest information"
+          git push
