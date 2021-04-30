@@ -1,171 +1,171 @@
 {
   "list": [
     {
-      "name": "falcon-helm",
-      "html_url": "https://github.com/crowdstrike/falcon-helm",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Helm operator and charts for running CrowdStrike Falcon with Kubernetes",
-      "homepage": ""
-    },
-    {
-      "name": "falcon-operator",
-      "html_url": "https://github.com/crowdstrike/falcon-operator",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Kubernetes Operator to deploy CrowdStrike Falcon sensors on container platforms.",
-      "homepage": ""
-    },
-    {
-      "name": "container-image-scan",
-      "html_url": "https://github.com/crowdstrike/container-image-scan",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.",
-      "homepage": ""
-    },
-    {
-      "name": "ember-url-hash-polyfill",
-      "html_url": "https://github.com/crowdstrike/ember-url-hash-polyfill",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Support for in/inter page linking / scrolling with hashes in EmberJS",
-      "homepage": ""
-    },
-    {
-      "name": "ember-browser-services",
-      "html_url": "https://github.com/crowdstrike/ember-browser-services",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Services for interacting with browser APIs so that you can have fine grained control in tests.",
-      "homepage": ""
-    },
-    {
-      "name": "FDR",
-      "html_url": "https://github.com/crowdstrike/FDR",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Falcon Data Replicator.",
-      "homepage": ""
-    },
-    {
-      "name": "detection-container",
-      "html_url": "https://github.com/crowdstrike/detection-container",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Tooling for testing CrowdStrike detections on container platforms.",
-      "homepage": ""
-    },
-    {
-      "name": "ember-number-to-words-shim",
-      "html_url": "https://github.com/crowdstrike/ember-number-to-words-shim",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Ember.js number-to-words shim.",
-      "homepage": ""
-    },
-    {
-      "name": "faltest",
-      "html_url": "https://github.com/crowdstrike/faltest",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "A different take on WebDriver browser testing.",
-      "homepage": ""
-    },
-    {
-      "name": "kubectl-falcon",
-      "html_url": "https://github.com/crowdstrike/kubectl-falcon",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Plug-in to kubectl command-line tool that helps with manipulation of Falcon Container.",
-      "homepage": ""
-    },
-    {
-      "name": "gofalcon",
-      "html_url": "https://github.com/crowdstrike/gofalcon",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Golang-based SDK fo CrowdStrike's APIs.",
-      "homepage": ""
-    },
-    {
-      "name": "ember-resource-tasks",
-      "html_url": "https://github.com/crowdstrike/ember-resource-tasks",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Resources for async functions in Ember.",
-      "homepage": ""
-    },
-    {
-      "name": "ember-three",
-      "html_url": "https://github.com/crowdstrike/ember-three",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Ember.js three.js shim.",
-      "homepage": ""
-    },
-    {
-      "name": "monorepo-next",
-      "html_url": "https://github.com/crowdstrike/monorepo-next",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Detach monorepo packages from normal linking.",
-      "homepage": ""
-    },
-    {
-      "name": "falcon-integration-gateway",
-      "html_url": "https://github.com/crowdstrike/falcon-integration-gateway",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "Falcon Integration Gateway.",
+      "name": "Cloud-AWS",
+      "html_url": "https://github.com/crowdstrike/cloud-aws",
+      "forks_count": 11,
+      "stargazers_count": 12,
+      "description": "A collection of projects supporting AWS Integration",
       "homepage": ""
     },
     {
       "name": "Cloud-Azure",
       "html_url": "https://github.com/crowdstrike/cloud-azure",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
+      "forks_count": 1,
+      "stargazers_count": 3,
       "description": "Discover for Cloud and Containers Azure",
       "homepage": ""
     },
     {
-      "name": "zscaler-FalconX-integration",
-      "html_url": "https://github.com/crowdstrike/zscaler-FalconX-integration",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "This is the integration to feed Falcon X IOC data into Zscaler's platform.",
-      "homepage": ""
-    },
-    {
-      "name": "Cloud-AWS",
-      "html_url": "https://github.com/crowdstrike/cloud-aws",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "A collection of projects supporting AWS integrations.",
-      "homepage": ""
-    },
-    {
-      "name": "container-image-scan-action",
-      "html_url": "https://github.com/crowdstrike/container-image-scan-action",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "CrowdStrike Container Image Scan GitHub Action.",
+      "name": "FDR",
+      "html_url": "https://github.com/crowdstrike/FDR",
+      "forks_count": 1,
+      "stargazers_count": 1,
+      "description": "Falcon Data Replicator",
       "homepage": ""
     },
     {
       "name": "cloud-tools-image",
       "html_url": "https://github.com/crowdstrike/cloud-tools-image",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
+      "forks_count": 2,
+      "stargazers_count": 3,
       "description": "Command-line tools for remote communication with public and private cloud environments.",
+      "homepage": "https://quay.io/repository/crowdstrike/cloud-tools-image"
+    },
+    {
+      "name": "container-image-scan",
+      "html_url": "https://github.com/crowdstrike/container-image-scan",
+      "forks_count": 4,
+      "stargazers_count": 2,
+      "description": "Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.",
+      "homepage": ""
+    },
+    {
+      "name": "container-image-scan-action",
+      "html_url": "https://github.com/crowdstrike/container-image-scan-action",
+      "forks_count": 2,
+      "stargazers_count": 3,
+      "description": "CrowdStrike Container Image Scan Github Action",
+      "homepage": ""
+    },
+    {
+      "name": "detection-container",
+      "html_url": "https://github.com/crowdstrike/detection-container",
+      "forks_count": 5,
+      "stargazers_count": 9,
+      "description": "",
+      "homepage": ""
+    },
+    {
+      "name": "ember-browser-services",
+      "html_url": "https://github.com/crowdstrike/ember-browser-services",
+      "forks_count": 3,
+      "stargazers_count": 36,
+      "description": "Services for interacting with browser APIs so that you can have fine-grained control in tests.  ",
+      "homepage": ""
+    },
+    {
+      "name": "ember-number-to-words-shim",
+      "html_url": "https://github.com/crowdstrike/ember-number-to-words-shim",
+      "forks_count": 0,
+      "stargazers_count": 3,
+      "description": "Ember.js number-to-words shim",
+      "homepage": ""
+    },
+    {
+      "name": "ember-resource-tasks",
+      "html_url": "https://github.com/crowdstrike/ember-resource-tasks",
+      "forks_count": 0,
+      "stargazers_count": 15,
+      "description": "Resources for async functions in Ember",
+      "homepage": ""
+    },
+    {
+      "name": "ember-three",
+      "html_url": "https://github.com/crowdstrike/ember-three",
+      "forks_count": 2,
+      "stargazers_count": 3,
+      "description": "Ember.js three.js shim",
+      "homepage": ""
+    },
+    {
+      "name": "ember-url-hash-polyfill",
+      "html_url": "https://github.com/crowdstrike/ember-url-hash-polyfill",
+      "forks_count": 0,
+      "stargazers_count": 4,
+      "description": "Support for in/inter page linking / scrolling with hashes in EmberJS",
+      "homepage": ""
+    },
+    {
+      "name": "falcon-helm",
+      "html_url": "https://github.com/crowdstrike/falcon-helm",
+      "forks_count": 7,
+      "stargazers_count": 2,
+      "description": "Helm operator and charts for running CrowdStrike Falcon with Kubernetes",
+      "homepage": "https://crowdstrike.github.io/falcon-helm"
+    },
+    {
+      "name": "falcon-integration-gateway",
+      "html_url": "https://github.com/crowdstrike/falcon-integration-gateway",
+      "forks_count": 1,
+      "stargazers_count": 3,
+      "description": "Falcon Integration Gateway (FIG)",
+      "homepage": ""
+    },
+    {
+      "name": "falcon-operator",
+      "html_url": "https://github.com/crowdstrike/falcon-operator",
+      "forks_count": 3,
+      "stargazers_count": 3,
+      "description": "",
+      "homepage": ""
+    },
+    {
+      "name": "faltest",
+      "html_url": "https://github.com/crowdstrike/faltest",
+      "forks_count": 7,
+      "stargazers_count": 20,
+      "description": "A different take on WebDriver browser testing",
+      "homepage": ""
+    },
+    {
+      "name": "gofalcon",
+      "html_url": "https://github.com/crowdstrike/gofalcon",
+      "forks_count": 2,
+      "stargazers_count": 3,
+      "description": "Golang-based SDK to CrowdStrike's APIs",
+      "homepage": ""
+    },
+    {
+      "name": "kubectl-falcon",
+      "html_url": "https://github.com/crowdstrike/kubectl-falcon",
+      "forks_count": 1,
+      "stargazers_count": 2,
+      "description": "Plug-in to kubectl command-line tool that helps with manipulation of Falcon Container.",
+      "homepage": ""
+    },
+    {
+      "name": "monorepo-next",
+      "html_url": "https://github.com/crowdstrike/monorepo-next",
+      "forks_count": 3,
+      "stargazers_count": 7,
+      "description": "Detach monorepo packages from normal linking",
       "homepage": ""
     },
     {
       "name": "psfalcon",
       "html_url": "https://github.com/crowdstrike/psfalcon",
-      //"forks_count": tbd,
-      //"stargazers_count": tbd,
-      "description": "PowerShell for CrowdStrike's OAuth2 APIs.",
+      "forks_count": 4,
+      "stargazers_count": 52,
+      "description": "PowerShell for CrowdStrike's OAuth2 APIs",
+      "homepage": ""
+    },
+    {
+      "name": "zscaler-FalconX-integration",
+      "html_url": "https://github.com/crowdstrike/zscaler-FalconX-integration",
+      "forks_count": 1,
+      "stargazers_count": 0,
+      "description": "This is the integration to feed Falcon X IOC data into Zcaler's platform",
       "homepage": ""
     }
   ]
