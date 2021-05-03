@@ -24,7 +24,7 @@ jobs:
 
       - name: Update repos.json
         run: |
-          ./scripts/generate-github-data.py -i ./docs/repos.yaml -o ./docs/_data/repos.json
+          ./scripts/generate-github-data.py -i ./docs/repos.yaml -o ./docs/_data/repos.json -t ${{ secrets.GITHUB_TOKEN }}
           git add ./docs/_data/repos.json
           if git diff-index --quiet HEAD --; then
             echo "Skipping... nothing to commit"

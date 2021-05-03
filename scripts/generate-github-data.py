@@ -12,14 +12,19 @@ parser.add_argument("-i", "--input", required=True,
                     help="list of github repos in yaml")
 parser.add_argument("-o", "--output", required=True,
                     help="output github repos in json")
+parser.add_argument("-t", "--token",
+		    help="GitHub token for API access")
 
 args = parser.parse_args()
 
 yamlfile = args.input
 jsonfile = args.output
-
-g = Github()
 r_list = []
+
+if args.token:
+    g = Github(args.token, "")
+else:
+    g = Github()
 
 with open(yamlfile, 'r') as f:
     repo_list = yaml.load(f, Loader=yaml.SafeLoader)
