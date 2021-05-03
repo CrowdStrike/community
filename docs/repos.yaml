@@ -81,7 +81,6 @@ list:
   - repo: "https://github.com/CrowdStrike/go-restful-openapi"
   - repo: "https://github.com/CrowdStrike/go_kafka_client"
   - repo: "https://github.com/CrowdStrike/gocelery"
-  - repo: "https://github.com/CrowdStrike/gocql"
   - repo: "https://github.com/CrowdStrike/gofalcon"
   - repo: "https://github.com/CrowdStrike/golang-driver"
   - repo: "https://github.com/CrowdStrike/golog"
