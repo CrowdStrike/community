@@ -22,7 +22,7 @@ jsonfile = args.output
 r_list = []
 
 if args.token:
-    g = Github(args.token, "")
+    g = Github(args.token)
 else:
     g = Github()
 
