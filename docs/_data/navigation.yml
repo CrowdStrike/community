@@ -14,12 +14,8 @@
 primary:
   - text: Home
     href: /
-  - text: Open Source Policies
-    links:
-      - text: CrowdStrike Engineering
-        href: /open-source-policy/#engineering
-      - text: All Other Departments
-        href: /open-source-policy/#everyone-else
+  - text: Open Source Policy
+    href: /open-source-policy
 #      - text: Demo link C
 #        href: /two/c/
 #      - text: Demo link D
@@ -40,12 +36,12 @@ primary:
 #  - text: Theme
 #    href: /theme/
 
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
-    external: true
+#docs:
+#  - text: Sidenav Documentation
+#    href: /docs/
+#  - text: Sidenav External link
+#    href: https://18f.gsa.gov
+#    external: true
 
 open-source-policy:
   - text: Open Source Policy
