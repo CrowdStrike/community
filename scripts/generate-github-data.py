@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from github import Github
+from github import Github, GithubException
 from urllib.parse import urlparse
 import json
 import yaml
@@ -13,7 +13,7 @@ parser.add_argument("-i", "--input", required=True,
 parser.add_argument("-o", "--output", required=True,
                     help="output github repos in json")
 parser.add_argument("-t", "--token",
-		    help="GitHub token for API access")
+                    help="GitHub token for API access")
 
 args = parser.parse_args()
 
@@ -31,7 +31,16 @@ with open(yamlfile, 'r') as f:
 
 for l in repo_list["list"]:
     for repo in l.values():
-        r = g.get_repo(urlparse(repo).path.lstrip("/"))
+        print(urlparse(repo).path.lstrip("/"))
+        try:
+            r = g.get_repo(urlparse(repo).path.lstrip("/"))
+        except GithubException as e:
+            if e.status != 404:
+                raise
+            else:
+                print("WARNING: '%s' does not exist! Please review 'repos.json'"
+                      "and remove the listing if necessary." % (r.full_name))
+
         repo_dict = {"name": r.name,
                      "html_url": repo,
                      "forks_count": r.forks_count,
