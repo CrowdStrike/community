@@ -11,8 +11,8 @@
     {
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
-      "forks_count": 82,
-      "stargazers_count": 439,
+      "forks_count": 85,
+      "stargazers_count": 441,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -27,7 +27,7 @@
     {
       "name": "Cloud-AWS",
       "html_url": "https://github.com/CrowdStrike/Cloud-AWS",
-      "forks_count": 11,
+      "forks_count": 12,
       "stargazers_count": 12,
       "description": "A collection of projects supporting AWS Integration",
       "homepage": ""
@@ -51,7 +51,7 @@
     {
       "name": "Cloud-GCP",
       "html_url": "https://github.com/CrowdStrike/Cloud-GCP",
-      "forks_count": 0,
+      "forks_count": 1,
       "stargazers_count": 0,
       "description": "A collection of projects supporting GCP integration",
       "homepage": ""
@@ -67,15 +67,15 @@
     {
       "name": "CrowdDetox",
       "html_url": "https://github.com/CrowdStrike/CrowdDetox",
-      "forks_count": 30,
-      "stargazers_count": 141,
+      "forks_count": 31,
+      "stargazers_count": 142,
       "description": "The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.",
       "homepage": ""
     },
     {
       "name": "CrowdFMS",
       "html_url": "https://github.com/CrowdStrike/CrowdFMS",
-      "forks_count": 21,
+      "forks_count": 22,
       "stargazers_count": 105,
       "description": "CrowdStrike Feed Management System. CrowdFMS is a framework for automating collection and processing of samples from VirusTotal, by leveraging the Private API system. This framework automatically downloads recent samples, which triggered an alert on the users YARA notification feed.",
       "homepage": ""
@@ -100,7 +100,7 @@
       "name": "Forensics",
       "html_url": "https://github.com/CrowdStrike/Forensics",
       "forks_count": 74,
-      "stargazers_count": 287,
+      "stargazers_count": 289,
       "description": "Scripts and code referenced in CrowdStrike blog posts",
       "homepage": ""
     },
@@ -172,7 +172,7 @@
       "name": "automactc",
       "html_url": "https://github.com/CrowdStrike/automactc",
       "forks_count": 53,
-      "stargazers_count": 316,
+      "stargazers_count": 318,
       "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
       "homepage": ""
     },
@@ -233,11 +233,11 @@
       "homepage": ""
     },
     {
-      "name": "chaosfalcon-server",
+      "name": "chai-fs",
       "html_url": "https://github.com/CrowdStrike/chaosfalcon-server",
-      "forks_count": 2,
+      "forks_count": 0,
       "stargazers_count": 0,
-      "description": "Tooling to generate detection events for CrowdStrike Falcon",
+      "description": "Chai assertions for Node.js filesystem",
       "homepage": ""
     },
     {
@@ -273,11 +273,11 @@
       "homepage": ""
     },
     {
-      "name": "companies-using-ember",
+      "name": "community",
       "html_url": "https://github.com/CrowdStrike/companies-using-ember",
-      "forks_count": 0,
-      "stargazers_count": 0,
-      "description": "A list of companies using Ember in the UK",
+      "forks_count": 4,
+      "stargazers_count": 2,
+      "description": "CrowdStrike's Open Source Policy & Contribution Guide",
       "homepage": ""
     },
     {
@@ -372,7 +372,7 @@
       "name": "ember-browser-services",
       "html_url": "https://github.com/CrowdStrike/ember-browser-services",
       "forks_count": 3,
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "description": "Services for interacting with browser APIs so that you can have fine-grained control in tests.  ",
       "homepage": ""
     },
@@ -508,7 +508,7 @@
       "name": "ember-url-hash-polyfill",
       "html_url": "https://github.com/CrowdStrike/ember-url-hash-polyfill",
       "forks_count": 0,
-      "stargazers_count": 4,
+      "stargazers_count": 6,
       "description": "Support for in/inter page linking / scrolling with hashes in EmberJS",
       "homepage": ""
     },
@@ -555,8 +555,8 @@
     {
       "name": "falcon-integration-gateway",
       "html_url": "https://github.com/CrowdStrike/falcon-integration-gateway",
-      "forks_count": 1,
-      "stargazers_count": 3,
+      "forks_count": 3,
+      "stargazers_count": 4,
       "description": "Falcon Integration Gateway (FIG)",
       "homepage": ""
     },
@@ -579,8 +579,8 @@
     {
       "name": "falcon-orchestrator",
       "html_url": "https://github.com/CrowdStrike/falcon-orchestrator",
-      "forks_count": 52,
-      "stargazers_count": 158,
+      "forks_count": 53,
+      "stargazers_count": 159,
       "description": "CrowdStrike Falcon Orchestrator provides automated workflow and response capabilities",
       "homepage": ""
     },
@@ -659,7 +659,7 @@
     {
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
-      "forks_count": 2,
+      "forks_count": 3,
       "stargazers_count": 3,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
@@ -779,7 +779,7 @@
     {
       "name": "monorepo-next",
       "html_url": "https://github.com/CrowdStrike/monorepo-next",
-      "forks_count": 3,
+      "forks_count": 4,
       "stargazers_count": 7,
       "description": "Detach monorepo packages from normal linking",
       "homepage": ""
@@ -835,8 +835,8 @@
     {
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
-      "forks_count": 4,
-      "stargazers_count": 52,
+      "forks_count": 5,
+      "stargazers_count": 56,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
@@ -897,12 +897,12 @@
       "homepage": ""
     },
     {
-      "name": "remark-validate-links",
+      "name": "remark-preset-lint-crowdstrike",
       "html_url": "https://github.com/CrowdStrike/remark-validate-links",
       "forks_count": 0,
-      "stargazers_count": 1,
-      "description": "plugin to check that Markdown links and images reference existing files and headings",
-      "homepage": "https://remark.js.org"
+      "stargazers_count": 0,
+      "description": "remark-lint preset for CrowdStrike",
+      "homepage": ""
     },
     {
       "name": "sarama",
@@ -1003,7 +1003,7 @@
     {
       "name": "zscaler-FalconX-integration",
       "html_url": "https://github.com/CrowdStrike/zscaler-FalconX-integration",
-      "forks_count": 1,
+      "forks_count": 2,
       "stargazers_count": 0,
       "description": "This is the integration to feed Falcon X IOC data into Zcaler's platform",
       "homepage": ""
