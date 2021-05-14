@@ -10,6 +10,8 @@ subnav:
     href: '#crowdstrike-engineering'
   - text: Everyone Else
     href: '#everyone-else'
+  - text: Contributing
+    href: '#policy-contributing'
 ---
 
 ## CrowdStrike Engineering
@@ -28,7 +30,7 @@ Members of CrowdStrike's Engineering organization should follow the engineering-
 * Regardless of license choice, **your LICENSE file should contain language explicitly stating the project content is provided "as is" without warranty**. Both The Unlicense and MIT License has this language.
 
 * Somewhere in your repository, most likely in the README file, should be an **explicit statement
-stating your initiative is a *project* and not *product***. Set expectations upfront and guide the community to your projects collaboration spaces. For example, on the [FalconPy SDK Project](https://github.com/CrowdStrike/falconpy), the following language was used:
+stating your initiative is a *project* and not *product*\**. Set expectations upfront and guide the community to your projects collaboration spaces. For example, on the [FalconPy SDK Project](https://github.com/CrowdStrike/falconpy), the following language was used:
 
 <table>
 <td>
@@ -66,3 +68,7 @@ Do not release code into open source projects that incorporates CrowdStrike prop
 * Accounts associated with CrowdStrike's corporate GitHub organization require [Two-factor Authentication (2FA)](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) to be enabled.
 
 * GitHub accounts do <b><u>not</u></b> need to be associated with your CrowdStrike EMail address. Your contributions should carry on with you!
+
+## Contributing
+
+For more details on contributing to the community, [check out our contributions page](contributing.md).

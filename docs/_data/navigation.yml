@@ -47,6 +47,10 @@ open-source-policy:
   - text: Open Source Policy
     href: /open-source-policy/
 
+contributing:
+  - text: Contributing
+    href: /contributing/
+
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.
 #footer:
