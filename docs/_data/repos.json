@@ -12,7 +12,7 @@
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
       "forks_count": 85,
-      "stargazers_count": 441,
+      "stargazers_count": 443,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -140,7 +140,7 @@
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
       "forks_count": 11,
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike"
     },
@@ -572,7 +572,7 @@
       "name": "falcon-operator",
       "html_url": "https://github.com/CrowdStrike/falcon-operator",
       "forks_count": 3,
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "description": "",
       "homepage": ""
     },
@@ -660,7 +660,7 @@
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
       "forks_count": 3,
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
     },
@@ -836,7 +836,7 @@
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
       "forks_count": 5,
-      "stargazers_count": 56,
+      "stargazers_count": 57,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
@@ -988,7 +988,7 @@
       "name": "yargs-help-output",
       "html_url": "https://github.com/CrowdStrike/yargs-help-output",
       "forks_count": 0,
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "description": "Update docs to include the full output of yargs help",
       "homepage": ""
     },
