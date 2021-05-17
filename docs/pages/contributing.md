@@ -7,9 +7,9 @@ layout: post
 sidenav: contributing
 subnav:
   - text: Welcome
-    href: '#contributing-welcome'
+    href: '#welcome-to-the-crowdstrike-community'
   - text: Using Git
-    href: '#contributing-git'
+    href: '#using-git'
 ---
 
 ## Welcome to the CrowdStrike Community
