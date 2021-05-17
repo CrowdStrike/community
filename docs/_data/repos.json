@@ -588,7 +588,7 @@
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
       "forks_count": 10,
-      "stargazers_count": 32,
+      "stargazers_count": 33,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -836,7 +836,7 @@
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
       "forks_count": 5,
-      "stargazers_count": 57,
+      "stargazers_count": 58,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
