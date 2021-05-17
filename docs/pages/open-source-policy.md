@@ -11,7 +11,7 @@ subnav:
   - text: Everyone Else
     href: '#everyone-else'
   - text: Contributing
-    href: '#policy-contributing'
+    href: '#contributing'
 ---
 
 ## CrowdStrike Engineering
