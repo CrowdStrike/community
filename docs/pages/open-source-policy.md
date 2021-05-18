@@ -10,8 +10,6 @@ subnav:
     href: '#crowdstrike-engineering'
   - text: Everyone Else
     href: '#everyone-else'
-  - text: Contributing
-    href: '#contributing'
 ---
 
 ## CrowdStrike Engineering
@@ -68,7 +66,3 @@ Do not release code into open source projects that incorporates CrowdStrike prop
 * Accounts associated with CrowdStrike's corporate GitHub organization require [Two-factor Authentication (2FA)](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) to be enabled.
 
 * GitHub accounts do <b><u>not</u></b> need to be associated with your CrowdStrike EMail address. Your contributions should carry on with you!
-
-## Contributing
-
-For more details on contributing to the community, [check out our contributions page](contributing.md).

@@ -1,8 +1,28 @@
-> This is a sample for use within other CrowdStrike projects.
-> Update the "[REPO_TITLE]" and "CONTACT_NAME@crowdstrike.com" references,
-> and then remove this comment before publishing.
+---
+title: Code of Conduct
+description: Code of Conduct for CrowdStrike-led Open Source Projects
+permalink: /code-of-conduct/
 
-# [REPO_TITLE] Code of Conduct
+layout: post
+sidenav: contributing
+subnav:
+  - text: Our Pledge
+    href: '#our-pledge'
+  - text: Our Standards
+    href: '#our-standards'
+  - text: Enforcement Responsibilities
+    href: '#enforcement-responsibilities'
+  - text: Scope
+    href: '#scope'
+  - text: Enforcement
+    href: '#enforcement'
+  - text: Attribution
+    href: '#attribution'
+  - text: Improving the Code of Conduct
+    href: '#improving-the-code-of-conduct'
+---
+
+# CrowdStrike Community Code of Conduct
 
 ## Our Pledge
 
@@ -62,20 +82,30 @@ representative at an online or offline event.
 
 ## Enforcement
 
+Each project has one or more project maintainers/community leaders. These individuals are
+accountable to enforce the code of conduct within a given project.
+
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-CONTACT_NAME@crowdstrike.com.
-All complaints will be reviewed and investigated promptly and fairly.
+reported to the community leaders. All ccomplaints will be reviewed and
+investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.
 
-## Enforcement Guidelines
+If you do not feel safe communicating with the project maintainers, or
+if you feel the situation warrants, please escalate to:
+
+Shawn Wells<br/>
+Global Vice President, Solution Architecture<br/>
+[shawn.wells@crowdstrike.com](shawn.wells@crowdstrike.com)<br/>
+Personal Cell: [+1 443 534 0130](tel:+14435340130) (U.S. Eastern, GMT-5)
+
+### Enforcement Guidelines
 
 Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:
 
-### 1. Correction
+#### 1. Correction
 
 **Community Impact**: Use of inappropriate language or other behavior deemed
 unprofessional or unwelcome in the community.
@@ -84,7 +114,7 @@ unprofessional or unwelcome in the community.
 clarity around the nature of the violation and an explanation of why the
 behavior was inappropriate. A public apology may be requested.
 
-### 2. Warning
+#### 2. Warning
 
 **Community Impact**: A violation through a single incident or series
 of actions.
@@ -96,7 +126,7 @@ includes avoiding interactions in community spaces as well as external channels
 like social media. Violating these terms may lead to a temporary or
 permanent ban.
 
-### 3. Temporary Ban
+#### 3. Temporary Ban
 
 **Community Impact**: A serious violation of community standards, including
 sustained inappropriate behavior.
@@ -107,7 +137,7 @@ private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.
 
-### 4. Permanent Ban
+#### 4. Permanent Ban
 
 **Community Impact**: Demonstrating a pattern of violation of community
 standards, including sustained inappropriate behavior,  harassment of an
@@ -130,3 +160,12 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+## Improving the Code of Conduct
+Suggestions welcome on how to improve this code of conduct!
+
+* Have a suggestion or idea to discuss? Open a discussion
+at [https://github.com/CrowdStrike/community/discussions](https://github.com/CrowdStrike/community/discussions)!
+
+* Want to submit a pull request with recommended changes? Submit a PR
+against [https://github.com/CrowdStrike/community/blob/main/docs/pages/code-of-conduct.md](https://github.com/CrowdStrike/community/blob/main/docs/pages/code-of-conduct.md).
