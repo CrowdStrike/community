@@ -11,8 +11,8 @@
     {
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
-      "forks_count": 85,
-      "stargazers_count": 443,
+      "forks_count": 86,
+      "stargazers_count": 444,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -68,7 +68,7 @@
       "name": "CrowdDetox",
       "html_url": "https://github.com/CrowdStrike/CrowdDetox",
       "forks_count": 31,
-      "stargazers_count": 142,
+      "stargazers_count": 144,
       "description": "The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.",
       "homepage": ""
     },
@@ -76,7 +76,7 @@
       "name": "CrowdFMS",
       "html_url": "https://github.com/CrowdStrike/CrowdFMS",
       "forks_count": 22,
-      "stargazers_count": 105,
+      "stargazers_count": 106,
       "description": "CrowdStrike Feed Management System. CrowdFMS is a framework for automating collection and processing of samples from VirusTotal, by leveraging the Private API system. This framework automatically downloads recent samples, which triggered an alert on the users YARA notification feed.",
       "homepage": ""
     },
@@ -115,7 +115,7 @@
     {
       "name": "NotPetyaDecryptor",
       "html_url": "https://github.com/CrowdStrike/NotPetyaDecryptor",
-      "forks_count": 2,
+      "forks_count": 3,
       "stargazers_count": 8,
       "description": "",
       "homepage": ""
@@ -140,7 +140,7 @@
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
       "forks_count": 11,
-      "stargazers_count": 11,
+      "stargazers_count": 13,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike"
     },
@@ -155,8 +155,8 @@
     {
       "name": "apbf",
       "html_url": "https://github.com/CrowdStrike/apbf",
-      "forks_count": 1,
-      "stargazers_count": 15,
+      "forks_count": 2,
+      "stargazers_count": 16,
       "description": "Go package implementing Age-Partitioned Bloom Filters (APBF)",
       "homepage": ""
     },
@@ -267,16 +267,16 @@
     {
       "name": "community",
       "html_url": "https://github.com/CrowdStrike/community",
-      "forks_count": 4,
-      "stargazers_count": 2,
+      "forks_count": 5,
+      "stargazers_count": 3,
       "description": "CrowdStrike's Open Source Policy & Contribution Guide",
       "homepage": ""
     },
     {
       "name": "community",
       "html_url": "https://github.com/CrowdStrike/companies-using-ember",
-      "forks_count": 4,
-      "stargazers_count": 2,
+      "forks_count": 5,
+      "stargazers_count": 3,
       "description": "CrowdStrike's Open Source Policy & Contribution Guide",
       "homepage": ""
     },
@@ -356,7 +356,7 @@
       "name": "easyrulesgo",
       "html_url": "https://github.com/CrowdStrike/easyrulesgo",
       "forks_count": 4,
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "description": "A port of Easy Rules in Go",
       "homepage": ""
     },
@@ -508,7 +508,7 @@
       "name": "ember-url-hash-polyfill",
       "html_url": "https://github.com/CrowdStrike/ember-url-hash-polyfill",
       "forks_count": 0,
-      "stargazers_count": 6,
+      "stargazers_count": 10,
       "description": "Support for in/inter page linking / scrolling with hashes in EmberJS",
       "homepage": ""
     },
@@ -587,8 +587,8 @@
     {
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
-      "forks_count": 10,
-      "stargazers_count": 33,
+      "forks_count": 12,
+      "stargazers_count": 34,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -660,7 +660,7 @@
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
       "forks_count": 3,
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
     },
@@ -755,7 +755,7 @@
     {
       "name": "lockfile",
       "html_url": "https://github.com/CrowdStrike/lockfile",
-      "forks_count": 0,
+      "forks_count": 1,
       "stargazers_count": 0,
       "description": "A very polite lock file utility, which endeavors to not litter, and to wait patiently for others. ",
       "homepage": ""
@@ -835,8 +835,8 @@
     {
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
-      "forks_count": 6,
-      "stargazers_count": 58,
+      "forks_count": 7,
+      "stargazers_count": 60,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
