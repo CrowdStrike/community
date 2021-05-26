@@ -39,7 +39,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
 5. Make the appropriate changes for the issue you are trying to address or the feature you would like to add.
 
-6. Add the file contents of the changed files to the "snapshot" git uses to manage the state of the project (also known as the index). Here's the git command that will add your changes:
+6. Add the file contents of the changed files to the "snapshot" git uses to manage the state of the project (also known as the index). Here is the git command that will add your changes:
 
     ``git add insert-paths-of-changed-files-here``
 
