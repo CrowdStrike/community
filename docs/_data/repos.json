@@ -468,7 +468,7 @@
       "name": "ember-resource-tasks",
       "html_url": "https://github.com/CrowdStrike/ember-resource-tasks",
       "forks_count": 0,
-      "stargazers_count": 15,
+      "stargazers_count": 16,
       "description": "Resources for async functions in Ember",
       "homepage": ""
     },
@@ -555,7 +555,7 @@
     {
       "name": "falcon-integration-gateway",
       "html_url": "https://github.com/CrowdStrike/falcon-integration-gateway",
-      "forks_count": 3,
+      "forks_count": 4,
       "stargazers_count": 4,
       "description": "Falcon Integration Gateway (FIG)",
       "homepage": ""
@@ -588,7 +588,7 @@
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
       "forks_count": 12,
-      "stargazers_count": 34,
+      "stargazers_count": 36,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -836,7 +836,7 @@
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
       "forks_count": 7,
-      "stargazers_count": 60,
+      "stargazers_count": 61,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
