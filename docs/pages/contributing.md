@@ -26,8 +26,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
 2. Fork the repository associated with project to your GitHub account. This means that you will have a copy of the repository under *your-GitHub-username/repository-name*. 
 
-   Guidance on how to fork a repository can be found here:
-[https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository).
+   Guidance on how to fork a repository can be found at [https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository).
 
 3. Clone the repository to your local machine using ``git clone https://github.com/github-username/repository-name.git``.
 
