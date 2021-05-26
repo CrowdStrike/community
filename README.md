@@ -19,7 +19,7 @@ gem install bundler jekyll rake
 cd docs/ && npm install
 ```
 
-3. Start the development server locally. It will watch for chances you make, and reload (nearly) instantly:
+3. Start the development server locally. Add the `--incremental` flag if you want to watch and reload changes:
 ```shell
 bundle exec jekyll serve
 ```
@@ -36,4 +36,3 @@ Configuration file: /Users/swells/Documents/src/github/CrowdStrike/community/doc
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
-
