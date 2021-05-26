@@ -22,7 +22,7 @@ Welcome and thank you for your interest in contributing to a CrowdStrike project
 # How do I make a contribution?
 Never made an open source contribution before? Wondering how contributions work in CrowdStrike projects? Here is a quick rundown!
 
-1. Find an issue that you are interested in addressing or a feature you would like to add. These are often documented in the project repositories themselves, frequently in the `issues` section.
+1. Find an issue that you are interested in addressing, or a feature you would like to add. These are often documented in the project repositories themselves, frequently in the `issues` section.
 
 2. Fork the repository associated with project to your GitHub account. This means that you will have a copy of the repository under *your-GitHub-username/repository-name*. 
 
