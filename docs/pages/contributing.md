@@ -55,7 +55,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
 10. Once submitted, a maintainer will review your pull request. They may ask for additional changes, or clarification, so keep an eye out for communication! GitHub automatically sends an email to your email address whenever someone comments on your pull request.
 
-11. Celebrate your contribution after your pull request is merged! All changes move the project forward, and we thank you for helping the community!
+11. While not all pull requests may be merged, celebrate your contribution whether or not your pull request is merged! All changes move the project forward, and we thank you for helping the community!
 
 ## Rebase Early, Rebase Often!
 Projects tend to move at a fast pace, which means your fork may become behind upstream. Keeping your local fork in sync with upstream is called `rebasing`. This ensures your local copy is frequently refreshed with the latest changes from the community. 
