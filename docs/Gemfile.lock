@@ -20,8 +20,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    execjs (2.7.0)
-    ffi (1.15.0)
+    execjs (2.8.1)
+    ffi (1.15.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.10)
@@ -72,7 +72,7 @@ GEM
     posix-spawn (0.3.15)
     public_suffix (4.0.6)
     rake (13.0.3)
-    rb-fsevent (0.10.4)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
@@ -95,4 +95,4 @@ DEPENDENCIES
   uswds-jekyll!
 
 BUNDLED WITH
-   2.2.16
+   2.2.17
