@@ -47,7 +47,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
     ``git commit -m "Added Dockerfile for Ubuntu-based deployments"``
 
-8. Push your local changes back to gihub.com:
+8. Push your local changes back to your account on github.com:
 
     ``git push origin BRANCH-NAME-HERE``
 
