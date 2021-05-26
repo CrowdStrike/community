@@ -18,6 +18,8 @@ primary:
     href: /open-source-policy
   - text: Contributing
     href: /contributing
+  - text: Code of Conduct
+    href: /code-of-conduct/
 
 #      - text: Demo link C
 #        href: /two/c/
@@ -49,10 +51,14 @@ primary:
 open-source-policy:
   - text: Open Source Policy
     href: /open-source-policy/
+  - text: Code of Conduct
+    href: /code-of-conduct/
 
 contributing:
   - text: Contributing
     href: /contributing/
+  - text: Code of Conduct
+    href: /code-of-conduct/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.

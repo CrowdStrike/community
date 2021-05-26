@@ -1,58 +1,91 @@
 ---
 title: Contributing
-description: This is a documentation page.
+description: Guidance for Contributing to CrowdStrike Open Source Projects
 permalink: /contributing/
 
 layout: post
 sidenav: contributing
 subnav:
   - text: Welcome
-    href: '#welcome-to-the-crowdstrike-community'
-  - text: Using Git
-    href: '#using-git'
+    href: '#welcome'
+  - text: How do I make a contribution?
+    href: '#how-do-i-make-a-contribution'
+  - text: Where can I go for help?
+    href: '#where-can-i-go-for-help'
+  - text: What does the Code of Conduct mean for me?
+    href: '#what-does-the-code-of-conduct-mean-for-me'
 ---
 
-## Welcome to the CrowdStrike Community
+# Welcome!
+Welcome and thank you for your interest in contributing to a CrowdStrike project! We recognize contributing to a project is no small feat! The guidance here aspires to help onboard new community members into how CrowdStrike-led projects tend to operate, and by extension, make the contribution process easier.
 
-Hello and welcome to the CrowdStike community on GitHub! Any and all contributions are welcome. The community may not always merge or act on something, but that is okay!
-Please keep engaging us.
+# How do I make a contribution?
+Never made an open source contribution before? Wondering how contributions work in CrowdStrike projects? Here is a quick rundown!
 
-Speaking of engaging the community, there are a couple of things to consider:
+1. Find an issue that you are interested in addressing, or a feature you would like to add. These are often documented in the project repositories themselves, frequently in the `issues` section.
 
-1. If you have general questions of the community that are not around specific repositories or projects, please [open a community discussion](https://github.com/CrowdStrike/community/discussions/new).
-1. If you do not see a project, repository, or would like us to consider working on a specific piece of technology, please [open a community ticket](https://github.com/CrowdStrike/community/issues/new). These type of requests should not be made in existing projects.
-1. If there is a specific issue or enhancement you would like to see addressed in a particular project, please open an issue in that project. It might be tempting to open a discussion, but an issue is more appropriate to address the problem.
-1. If you have general questions of a project, please open a discussion in that project instead of a community discussion.
+2. Fork the repository associated with project to your GitHub account. This means that you will have a copy of the repository under *your-GitHub-username/repository-name*. 
 
-Thank you and happy coding!
+   Guidance on how to fork a repository can be found at [https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository).
 
-## Using Git
+3. Clone the repository to your local machine using ``git clone https://github.com/github-username/repository-name.git``.
 
-### Forking Projects
+    GitHub provides documentation on this process, including screenshots, here:
+[https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository)
 
-When contributing to projects, 
+4. Create a new branch for your changes. This ensures your modifications can be uniquely identified and can help prevent rebasing and history problems. A local development branch can be created by running a command similar to:
 
-1. Please fork the CrowdStrike project to your GitHub Account. [Example on how to fork a repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository)
-1. Once the project is forked to your own account, clone the project to your local system. [Example on cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository)
-1. Change directory to the repository folder, and create a new branch by running `git checkout -b my_change` where `my_change` is a short drescription of the change being made. Changes should be made in the new branch vs the `main` branch because you normally want your `main` branch to match with the original CrowdStrike repository `main` branch.
-1. Make the desired changes in the repository.
-1. Push the branch back to your GitHub account. For example, `git push origin my_change` where `my_change` is name of the branch.
-1. Create a pull request in the original CrowdStrike project that you forked. [Example on how to create a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+    ``git checkout -b BRANCH-NAME-HERE``
 
-### Rebasing
+5. Make the appropriate changes for the issue you are trying to address or the feature you would like to add.
 
-You should rarely develop or make changes to your local `main` branch, but sometimes, your `main` branch gets out of date. Also, some pull requests may have been merged that might require
-that the branch on which you are developing contains the latest commits.
+6. Add the file contents of the changed files to the "snapshot" git uses to manage the state of the project (also known as the index). Here is the git command that will add your changes:
 
-1. Make sure your `main` branch is up-to-date from the CrowdStrike repository before creating new branches. [Example on syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
-1. Once your `main` branch has been synced, rebase your working branch (before you create a pull request) by checking out your branch and then running `git rebase -i main`.
-2. For handling merge conflicts, see [how to resolve a git merge conflict](https://opensource.com/article/20/4/git-merge-conflict) for a walkthrough on handling merge conflicts.
+    ``git add insert-paths-of-changed-files-here``
 
-#### Squashing
+7. Use `git commit` to store the contents of the index with a descriptive message. This message should outline what was changed. For example:
 
-Before submitting pull requests, please make sure to squash commits in your branch when:
+    ``git commit -m "Added Dockerfile for Ubuntu-based deployments"``
 
-1. You create multiple commits (use `git log` to show history) that have the same commit message like `Update Readme.md`.
-1. Created a bunch of junk or throw away commit messages like `Fix`, `Test`, `Fixed Typos`, etc.
+8. Push your local changes back to your account on github.com:
 
-[Example on squashing commits using git rebase](https://garrytrinder.github.io/2020/03/squashing-commits-using-interactive-rebase)
+    ``git push origin BRANCH-NAME-HERE``
+
+9. Submit a pull request to the upstream project. Documentation on this process, including screen shots, can be found at [https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+
+10. Once submitted, a maintainer will review your pull request. They may ask for additional changes, or clarification, so keep an eye out for communication! GitHub automatically sends an email to your email address whenever someone comments on your pull request.
+
+11. While not all pull requests may be merged, celebrate your contribution whether or not your pull request is merged! All changes move the project forward, and we thank you for helping the community!
+
+## Rebase Early, Rebase Often!
+Projects tend to move at a fast pace, which means your fork may become behind upstream. Keeping your local fork in sync with upstream is called `rebasing`. This ensures your local copy is frequently refreshed with the latest changes from the community. 
+
+Frequenty rebasing is *strongly* encouraged. If your local copy falls to far behind, you may encounter merge conflicts when submitting pull request. If this happens, you will have to triage (often by hand!) the differences in your local repository versus the changes upstream.
+
+* Documentation on how to sync/rebase your fork can be found at [https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+
+* For handling merge conflicts, refer to [https://opensource.com/article/20/4/git-merge-conflict](https://opensource.com/article/20/4/git-merge-conflict)
+
+
+# Where can I go for help?
+## Submitting a Ticket
+General questions relating a project should be opened in that projects repository. Examples would be troubleshooting errors, submitting bug reports, or asking a general question/request for clarification.
+
+If your question is of the broader CrowdStrike community, please [open a community discussion](https://github.com/CrowdStrike/community/discussions/new).
+
+## Submitting a New Project Idea
+ If you do not see a project, repository, or would like the community to consider working on a specific piece of technology, please [open a community ticket](https://github.com/CrowdStrike/community/issues/new). 
+
+
+# What does the Code of Conduct mean for me?
+Our Code of Conduct means that you are responsible for treating everyone on the project with respect and courtesy regardless of their identity. If you are the victim of any inappropriate behavior or comments as described in our Code of Conduct, we are here for you and will do the best to ensure that the abuser is reprimanded appropriately, per our code.
+
+Each CrowdStrike project should have its own group of maintainers that issues can be raised to. These individuals are accountable for enforcing the CrowdStrike Code of Conduct within the project.
+
+## Escalation Path
+If you do not feel safe communicating with the project maintainers, or if you feel the situation warrants, please escalate to:
+
+Shawn Wells<br/>
+Global Vice President, Solution Architecture<br/>
+[shawn.wells@crowdstrike.com](shawn.wells@crowdstrike.com)<br/>
+Personal Cell: [+1 443 534 0130](tel:+14435340130) (U.S. Eastern, GMT-5)
