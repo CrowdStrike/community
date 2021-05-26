@@ -1,5 +1,5 @@
 ---
-title: Contributing to a Project
+title: Contributing
 description: Guidance for Contributing to CrowdStrike Open Source Projects
 permalink: /contributing/
 
