@@ -33,7 +33,7 @@ Never made an open source contribution before? Wondering how contributions work 
     GitHub provides documentation on this process, including screenshots, here:
 [https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository)
 
-4. Create a new branch for your changes. This ensures your modifications can be uniquely identified. A local development branch can be created by running a command similar to:
+4. Create a new branch for your changes. This ensures your modifications can be uniquely identified and can help prevent rebasing and history problems. A local development branch can be created by running a command similar to:
 
     ``git checkout -b BRANCH-NAME-HERE``
 
