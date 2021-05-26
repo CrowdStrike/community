@@ -64,8 +64,7 @@ Frequenty rebasing is *strongly* encouraged. If your local copy falls to far beh
 
 * Documentation on how to sync/rebase your fork can be found at [https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
-* For handling merge conflicts, refer to:
-[https://opensource.com/article/20/4/git-merge-conflict](https://opensource.com/article/20/4/git-merge-conflict)
+* For handling merge conflicts, refer to [https://opensource.com/article/20/4/git-merge-conflict](https://opensource.com/article/20/4/git-merge-conflict)
 
 
 # Where can I go for help?
