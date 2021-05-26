@@ -20,7 +20,7 @@ subnav:
 CrowdStrike is still new to open source ourselves, and we recognize contributing to a project is no small feat! The guidance here aspires to help onboard new community members into how CrowdStrike-led projects tend to operate, and by extension, make the contribution process easier.
 
 # How do I make a contribution?
-Never made an open source contribution before? Wondering how contributions work in CrowdStrike projects? Here's a quick rundown!
+Never made an open source contribution before? Wondering how contributions work in CrowdStrike projects? Here is a quick rundown!
 
 1. Find an issue that you are interested in addressing or a feature you would like to add. These are often documented in the project repositories themselves, frequently in the `issues` section.
 
