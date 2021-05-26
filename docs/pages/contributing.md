@@ -51,9 +51,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
     ``git push origin BRANCH-NAME-HERE``
 
-9. Submit a pull request to the upstream project. Documentation on this process, including screen shots, can be found here:
-
-[https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+9. Submit a pull request to the upstream project. Documentation on this process, including screen shots, can be found at [https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
 10. Once submitted, a maintainer will review your pull request. They may ask for additional changes, or clarification, so keep an eye out for communication! GitHub automatically sends an email to your email address whenever someone comments on your pull request.
 
