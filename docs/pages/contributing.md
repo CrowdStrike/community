@@ -60,7 +60,7 @@ Never made an open source contribution before? Wondering how contributions work 
 ## Rebase Early, Rebase Often!
 Projects tend to move at a fast pace, which means your fork may become behind upstream. Keeping your local fork in sync with upstream is called `rebasing`. This ensures your local copy is frequently refreshed with the latest changes from the community. 
 
-Frequenty rebasing is *strongly* encouraged. If your local copy falls to far behind, you may encounter merge conflicts when submitting pull request. If this happens, you'll have to triage (often by hand!) the differents in your local repository versus the changes upstream.
+Frequenty rebasing is *strongly* encouraged. If your local copy falls to far behind, you may encounter merge conflicts when submitting pull request. If this happens, you will have to triage (often by hand!) the differences in your local repository versus the changes upstream.
 
 * Documentation on how to sync/rebase your fork can be found here:
 [https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
