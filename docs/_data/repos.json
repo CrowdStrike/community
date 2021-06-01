@@ -43,7 +43,7 @@
     {
       "name": "Cloud-Benchmark",
       "html_url": "https://github.com/CrowdStrike/Cloud-Benchmark",
-      "forks_count": 0,
+      "forks_count": 1,
       "stargazers_count": 1,
       "description": "Cloud deployment size calculation utilities",
       "homepage": ""
@@ -99,7 +99,7 @@
     {
       "name": "Forensics",
       "html_url": "https://github.com/CrowdStrike/Forensics",
-      "forks_count": 74,
+      "forks_count": 75,
       "stargazers_count": 289,
       "description": "Scripts and code referenced in CrowdStrike blog posts",
       "homepage": ""
@@ -124,7 +124,7 @@
       "name": "Tortilla",
       "html_url": "https://github.com/CrowdStrike/Tortilla",
       "forks_count": 47,
-      "stargazers_count": 243,
+      "stargazers_count": 242,
       "description": "",
       "homepage": ""
     },
@@ -172,7 +172,7 @@
       "name": "automactc",
       "html_url": "https://github.com/CrowdStrike/automactc",
       "forks_count": 53,
-      "stargazers_count": 318,
+      "stargazers_count": 319,
       "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
       "homepage": ""
     },
@@ -299,7 +299,7 @@
     {
       "name": "cs-bro",
       "html_url": "https://github.com/CrowdStrike/cs-bro",
-      "forks_count": 45,
+      "forks_count": 44,
       "stargazers_count": 142,
       "description": "Bro scripts written by CrowdStrike Services",
       "homepage": ""
@@ -587,8 +587,8 @@
     {
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
-      "forks_count": 12,
-      "stargazers_count": 36,
+      "forks_count": 13,
+      "stargazers_count": 37,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -660,7 +660,7 @@
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
       "forks_count": 3,
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
     },
