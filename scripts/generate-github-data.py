@@ -34,27 +34,26 @@ for l in repo_list["list"]:
         print(urlparse(repo).path.lstrip("/"))
         try:
             r = g.get_repo(urlparse(repo).path.lstrip("/"))
+            repo_dict = {"name": r.name,
+                         "html_url": repo,
+                         "forks_count": r.forks_count,
+                         "stargazers_count": r.stargazers_count,
+                         "description": r.description,
+                         "homepage": r.homepage}
+
+            # Ensure there are None doesn't exist as a value
+            for k, v in repo_dict.items():
+                if v is None:
+                    repo_dict[k] = ""
+
+            # Append the repo information into a list of dictionaries
+            r_list.append(repo_dict)
         except GithubException as e:
             if e.status != 404:
                 raise
             else:
                 print("WARNING: '%s' does not exist! Please review 'repos.json'"
                       "and remove the listing if necessary." % (r.full_name))
-
-        repo_dict = {"name": r.name,
-                     "html_url": repo,
-                     "forks_count": r.forks_count,
-                     "stargazers_count": r.stargazers_count,
-                     "description": r.description,
-                     "homepage": r.homepage}
-
-        # Ensure there are None doesn't exist as a value
-        for k, v in repo_dict.items():
-            if v is None:
-                repo_dict[k] = ""
-
-        # Append the repo information into a list of dictionaries
-        r_list.append(repo_dict)
 
 # sort by name key
 r_list = sorted(r_list, key=lambda i: i['name'])
