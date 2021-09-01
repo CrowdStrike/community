@@ -12,7 +12,7 @@
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
       "forks_count": 90,
-      "stargazers_count": 461,
+      "stargazers_count": 467,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -28,7 +28,7 @@
       "name": "Cloud-AWS",
       "html_url": "https://github.com/CrowdStrike/Cloud-AWS",
       "forks_count": 18,
-      "stargazers_count": 21,
+      "stargazers_count": 23,
       "description": "A collection of projects supporting AWS Integration",
       "homepage": ""
     },
@@ -36,7 +36,7 @@
       "name": "Cloud-Azure",
       "html_url": "https://github.com/CrowdStrike/Cloud-Azure",
       "forks_count": 2,
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "description": "Discover for Cloud and Containers Azure",
       "homepage": ""
     },
@@ -67,7 +67,7 @@
     {
       "name": "CrowdDetox",
       "html_url": "https://github.com/CrowdStrike/CrowdDetox",
-      "forks_count": 32,
+      "forks_count": 33,
       "stargazers_count": 147,
       "description": "The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.",
       "homepage": ""
@@ -75,16 +75,16 @@
     {
       "name": "CrowdFMS",
       "html_url": "https://github.com/CrowdStrike/CrowdFMS",
-      "forks_count": 22,
-      "stargazers_count": 111,
+      "forks_count": 24,
+      "stargazers_count": 115,
       "description": "CrowdStrike Feed Management System. CrowdFMS is a framework for automating collection and processing of samples from VirusTotal, by leveraging the Private API system. This framework automatically downloads recent samples, which triggered an alert on the users YARA notification feed.",
       "homepage": ""
     },
     {
       "name": "Dockerfiles",
       "html_url": "https://github.com/CrowdStrike/Dockerfiles",
-      "forks_count": 13,
-      "stargazers_count": 12,
+      "forks_count": 15,
+      "stargazers_count": 15,
       "description": "Automation to help create container images pre-loaded with the CrowdStrike Falcon sensor.",
       "homepage": ""
     },
@@ -92,7 +92,7 @@
       "name": "FDR",
       "html_url": "https://github.com/CrowdStrike/FDR",
       "forks_count": 2,
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "description": "Falcon Data Replicator",
       "homepage": ""
     },
@@ -100,7 +100,7 @@
       "name": "Forensics",
       "html_url": "https://github.com/CrowdStrike/Forensics",
       "forks_count": 75,
-      "stargazers_count": 292,
+      "stargazers_count": 293,
       "description": "Scripts and code referenced in CrowdStrike blog posts",
       "homepage": ""
     },
@@ -139,8 +139,8 @@
     {
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
-      "forks_count": 14,
-      "stargazers_count": 16,
+      "forks_count": 16,
+      "stargazers_count": 18,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike"
     },
@@ -171,8 +171,8 @@
     {
       "name": "automactc",
       "html_url": "https://github.com/CrowdStrike/automactc",
-      "forks_count": 54,
-      "stargazers_count": 334,
+      "forks_count": 56,
+      "stargazers_count": 346,
       "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
       "homepage": ""
     },
@@ -188,7 +188,7 @@
       "name": "bpfmon-example",
       "html_url": "https://github.com/CrowdStrike/bpfmon-example",
       "forks_count": 1,
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "description": "proof-of-concept example of using eBPF to Monitor for eBPF Map tampering",
       "homepage": ""
     },
@@ -268,7 +268,7 @@
       "name": "container-image-scan",
       "html_url": "https://github.com/CrowdStrike/container-image-scan",
       "forks_count": 4,
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "description": "Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.",
       "homepage": ""
     },
@@ -284,7 +284,7 @@
       "name": "cs-bro",
       "html_url": "https://github.com/CrowdStrike/cs-bro",
       "forks_count": 44,
-      "stargazers_count": 142,
+      "stargazers_count": 143,
       "description": "Bro scripts written by CrowdStrike Services",
       "homepage": ""
     },
@@ -308,15 +308,15 @@
       "name": "debpkg",
       "html_url": "https://github.com/CrowdStrike/debpkg",
       "forks_count": 1,
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "description": "Debian packaging written in pure Golang (production grade)",
       "homepage": ""
     },
     {
       "name": "detection-container",
       "html_url": "https://github.com/CrowdStrike/detection-container",
-      "forks_count": 6,
-      "stargazers_count": 11,
+      "forks_count": 8,
+      "stargazers_count": 12,
       "description": "",
       "homepage": ""
     },
@@ -340,7 +340,7 @@
       "name": "easyrulesgo",
       "html_url": "https://github.com/CrowdStrike/easyrulesgo",
       "forks_count": 4,
-      "stargazers_count": 38,
+      "stargazers_count": 39,
       "description": "A port of Easy Rules in Go",
       "homepage": ""
     },
@@ -355,8 +355,8 @@
     {
       "name": "ember-browser-services",
       "html_url": "https://github.com/CrowdStrike/ember-browser-services",
-      "forks_count": 3,
-      "stargazers_count": 37,
+      "forks_count": 4,
+      "stargazers_count": 38,
       "description": "Services for interacting with browser APIs so that you can have fine-grained control in tests.  ",
       "homepage": ""
     },
@@ -491,8 +491,8 @@
     {
       "name": "ember-url-hash-polyfill",
       "html_url": "https://github.com/CrowdStrike/ember-url-hash-polyfill",
-      "forks_count": 0,
-      "stargazers_count": 10,
+      "forks_count": 1,
+      "stargazers_count": 11,
       "description": "Support for in/inter page linking / scrolling with hashes in EmberJS",
       "homepage": ""
     },
@@ -531,10 +531,10 @@
     {
       "name": "falcon-helm",
       "html_url": "https://github.com/CrowdStrike/falcon-helm",
-      "forks_count": 10,
-      "stargazers_count": 4,
+      "forks_count": 11,
+      "stargazers_count": 10,
       "description": "Helm operator and charts for running CrowdStrike Falcon with Kubernetes",
-      "homepage": "https://crowdstrike.github.io/falcon-helm"
+      "homepage": "https://artifacthub.io/packages/helm/falcon-helm/falcon-sensor"
     },
     {
       "name": "falcon-integration-gateway",
@@ -556,23 +556,23 @@
       "name": "falcon-operator",
       "html_url": "https://github.com/CrowdStrike/falcon-operator",
       "forks_count": 4,
-      "stargazers_count": 5,
+      "stargazers_count": 7,
       "description": "",
-      "homepage": ""
+      "homepage": "https://artifacthub.io/packages/olm/falcon-operator/falcon-operator"
     },
     {
       "name": "falcon-orchestrator",
       "html_url": "https://github.com/CrowdStrike/falcon-orchestrator",
       "forks_count": 54,
-      "stargazers_count": 165,
+      "stargazers_count": 167,
       "description": "CrowdStrike Falcon Orchestrator provides automated workflow and response capabilities",
       "homepage": ""
     },
     {
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
-      "forks_count": 20,
-      "stargazers_count": 49,
+      "forks_count": 24,
+      "stargazers_count": 53,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -643,8 +643,8 @@
     {
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
-      "forks_count": 5,
-      "stargazers_count": 11,
+      "forks_count": 6,
+      "stargazers_count": 12,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
     },
@@ -716,7 +716,7 @@
       "name": "kafka-replicator",
       "html_url": "https://github.com/CrowdStrike/kafka-replicator",
       "forks_count": 1,
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "description": "Kafka replicator is a tool used to mirror and backup Kafka topics across regions",
       "homepage": ""
     },
@@ -763,8 +763,8 @@
     {
       "name": "monorepo-next",
       "html_url": "https://github.com/CrowdStrike/monorepo-next",
-      "forks_count": 4,
-      "stargazers_count": 8,
+      "forks_count": 5,
+      "stargazers_count": 9,
       "description": "Detach monorepo packages from normal linking",
       "homepage": ""
     },
@@ -811,8 +811,8 @@
     {
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
-      "forks_count": 9,
-      "stargazers_count": 76,
+      "forks_count": 10,
+      "stargazers_count": 82,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
@@ -836,7 +836,7 @@
       "name": "rancher-helm-chart",
       "html_url": "https://github.com/CrowdStrike/rancher-helm-chart",
       "forks_count": 3,
-      "stargazers_count": 3,
+      "stargazers_count": 2,
       "description": "Sample Helm Charts for deploying CrowdStrike Falcon sensors into Rancher's RKE and k3s products.",
       "homepage": ""
     },
@@ -844,7 +844,7 @@
       "name": "ratelimiter",
       "html_url": "https://github.com/CrowdStrike/ratelimiter",
       "forks_count": 2,
-      "stargazers_count": 14,
+      "stargazers_count": 16,
       "description": "LRU based RateLimiter for GoLang with increments",
       "homepage": ""
     },
@@ -923,8 +923,8 @@
     {
       "name": "travel-laptop",
       "html_url": "https://github.com/CrowdStrike/travel-laptop",
-      "forks_count": 23,
-      "stargazers_count": 211,
+      "forks_count": 22,
+      "stargazers_count": 212,
       "description": "Auxiliary documentation and scripts around \"A Reasonably Safe Travel Burner Laptop\"",
       "homepage": ""
     },
