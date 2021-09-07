@@ -61,7 +61,7 @@ Do not release code into open source projects that incorporates CrowdStrike prop
 ### Joining the CrowdStrike GitHub Organization
 * [Open a ticket in this repo](https://github.com/CrowdStrike/Open-Source-Policy/issues) outlining who you are (name, @crowdstrike.com EMail). Someone will reach out to you on the internal slack to verify and create your account.
 
-* Should you not receive a response in 1-2 days, ping `#github-management` on internal Slack.
+* Should you not receive a response in 1-2 business days, ping `#open-source-contributors` on internal Slack.
 
 * Accounts associated with CrowdStrike's corporate GitHub organization require [Two-factor Authentication (2FA)](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) to be enabled.
 
