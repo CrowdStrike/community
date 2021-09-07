@@ -12,7 +12,7 @@
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
       "forks_count": 90,
-      "stargazers_count": 467,
+      "stargazers_count": 469,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -123,7 +123,7 @@
     {
       "name": "Tortilla",
       "html_url": "https://github.com/CrowdStrike/Tortilla",
-      "forks_count": 48,
+      "forks_count": 49,
       "stargazers_count": 247,
       "description": "",
       "homepage": ""
@@ -139,7 +139,7 @@
     {
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
-      "forks_count": 16,
+      "forks_count": 17,
       "stargazers_count": 18,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike"
@@ -172,7 +172,7 @@
       "name": "automactc",
       "html_url": "https://github.com/CrowdStrike/automactc",
       "forks_count": 56,
-      "stargazers_count": 346,
+      "stargazers_count": 348,
       "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
       "homepage": ""
     },
@@ -220,7 +220,7 @@
       "name": "cassandra-tools",
       "html_url": "https://github.com/CrowdStrike/cassandra-tools",
       "forks_count": 17,
-      "stargazers_count": 55,
+      "stargazers_count": 54,
       "description": "Python Fabric scripts to help automate the launching and managing of clusters for testing",
       "homepage": ""
     },
@@ -276,7 +276,7 @@
       "name": "container-image-scan-action",
       "html_url": "https://github.com/CrowdStrike/container-image-scan-action",
       "forks_count": 2,
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "description": "CrowdStrike Container Image Scan Github Action",
       "homepage": ""
     },
@@ -571,8 +571,8 @@
     {
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
-      "forks_count": 24,
-      "stargazers_count": 53,
+      "forks_count": 25,
+      "stargazers_count": 56,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -644,7 +644,7 @@
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
       "forks_count": 6,
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
     },
@@ -811,8 +811,8 @@
     {
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
-      "forks_count": 10,
-      "stargazers_count": 82,
+      "forks_count": 12,
+      "stargazers_count": 84,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
