@@ -12,7 +12,7 @@
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
       "forks_count": 91,
-      "stargazers_count": 472,
+      "stargazers_count": 473,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -139,7 +139,7 @@
     {
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
-      "forks_count": 18,
+      "forks_count": 19,
       "stargazers_count": 18,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike"
@@ -315,7 +315,7 @@
     {
       "name": "detection-container",
       "html_url": "https://github.com/CrowdStrike/detection-container",
-      "forks_count": 11,
+      "forks_count": 12,
       "stargazers_count": 14,
       "description": "",
       "homepage": ""
@@ -811,8 +811,8 @@
     {
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
-      "forks_count": 15,
-      "stargazers_count": 89,
+      "forks_count": 16,
+      "stargazers_count": 90,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
