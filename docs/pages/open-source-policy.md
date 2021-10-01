@@ -25,7 +25,7 @@ Members of CrowdStrike's Engineering organization should follow the engineering-
 
   * If your project is content focused, such as training materials and coursebooks, consider one of the licenses from [Creative Commons](https://creativecommons.org/choose/).
 
-* Regardless of license choice, **your LICENSE file should contain language explicitly stating the project content is provided "as is" without warranty**. Both The Unlicense and MIT License has this language.
+* Regardless of license choice, **your LICENSE file should contain language explicitly stating the project content is provided "as is" without warranty**. Both The Unlicense and MIT License contain this language.
 
 * Somewhere in your repository, most likely in the README file, should be an **explicit statement
 stating your initiative is a *project* and not *product*\**. Set expectations upfront and guide the community to your projects collaboration spaces. For example, on the [FalconPy SDK Project](https://github.com/CrowdStrike/falconpy), the following language was used:
