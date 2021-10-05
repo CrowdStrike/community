@@ -139,7 +139,7 @@
     {
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
-      "forks_count": 19,
+      "forks_count": 20,
       "stargazers_count": 18,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike"
@@ -340,7 +340,7 @@
       "name": "easyrulesgo",
       "html_url": "https://github.com/CrowdStrike/easyrulesgo",
       "forks_count": 4,
-      "stargazers_count": 39,
+      "stargazers_count": 40,
       "description": "A port of Easy Rules in Go",
       "homepage": ""
     },
@@ -572,7 +572,7 @@
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
       "forks_count": 26,
-      "stargazers_count": 59,
+      "stargazers_count": 60,
       "description": "The CrowdStrike Falcon SDK for Python 3",
       "homepage": "https://www.falconpy.io"
     },
@@ -643,7 +643,7 @@
     {
       "name": "gofalcon",
       "html_url": "https://github.com/CrowdStrike/gofalcon",
-      "forks_count": 7,
+      "forks_count": 8,
       "stargazers_count": 13,
       "description": "Golang-based SDK to CrowdStrike's APIs",
       "homepage": ""
@@ -812,7 +812,7 @@
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
       "forks_count": 16,
-      "stargazers_count": 90,
+      "stargazers_count": 92,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
