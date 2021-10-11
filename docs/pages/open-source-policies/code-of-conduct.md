@@ -4,7 +4,7 @@ description: Code of Conduct for CrowdStrike-led Open Source Projects
 permalink: /code-of-conduct/
 
 layout: post
-sidenav: contributing
+sidenav: community-guidelines
 subnav:
   - text: Our Pledge
     href: '#our-pledge'

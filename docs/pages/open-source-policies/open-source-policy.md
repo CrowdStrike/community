@@ -4,7 +4,7 @@ description: This is a documentation page.
 permalink: /open-source-policy/
 
 layout: post
-sidenav: open-source-policy
+sidenav: community-guidelines
 subnav:
   - text: CrowdStrike Engineering
     href: '#crowdstrike-engineering'

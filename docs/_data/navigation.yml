@@ -8,19 +8,24 @@
 # can use that as your header's primary navigation by setting
 # `primary.links` to "primary":
 #
-# primary:
-#   links: primary
+#primary:
+#  links: primary
 #
 primary:
   - text: Home
     href: /
-  - text: Open Source Policy
-    href: /open-source-policy
-  - text: Contributing
-    href: /contributing
-  - text: Code of Conduct
-    href: /code-of-conduct/
-
+  - text: Community Guidelines
+    links:
+      - text: Employee Open Source Policy
+        href: /open-source-policy
+      - text: Contributing to CrowdStrike Projects
+        href: /contributing
+      - text: Code of Conduct
+        href: /code-of-conduct/
+  - text: Projects
+    links:
+      - text: AWS Integrations
+        href: /aws-integrations/
 #      - text: Demo link C
 #        href: /two/c/
 #      - text: Demo link D
@@ -48,17 +53,26 @@ primary:
 #    href: https://18f.gsa.gov
 #    external: true
 
-open-source-policy:
-  - text: Open Source Policy
-    href: /open-source-policy/
-  - text: Code of Conduct
-    href: /code-of-conduct/
+aws-integrations:
+  - text: AWS Integrations Homepage
+    href: /aws-integrations/
+  - text: AWS Network Firewall with CrowdStrike Threat Intelligence
+    href: /aws-integrations/aws-network-firewall-with-crowdstrike-threat-intelligence/
+  - text: AWS S3 Buckets to Archive Logs from Falcon Data Replicator
+    href: /elsewhere/
+  - text: AWS Security Hub to Receive CrowdStrike Detections
+    href: /elsewhere/
+  - text: AWS Systems Manager Distributor to Automatically Install/Remove CrowdStrike Sensor
+    href: /elsewhere/
 
-contributing:
-  - text: Contributing
+community-guidelines:
+  - text: Employee Open Source Policy
+    href: /open-source-policy/
+  - text: Contributing to CrowdStrike Projects
     href: /contributing/
   - text: Code of Conduct
     href: /code-of-conduct/
+
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.

@@ -4,7 +4,7 @@ description: Guidance for Contributing to CrowdStrike Open Source Projects
 permalink: /contributing/
 
 layout: post
-sidenav: contributing
+sidenav: community-guidelines
 subnav:
   - text: Welcome
     href: '#welcome'
