@@ -24,7 +24,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
 1. Find an issue that you are interested in addressing, or a feature you would like to add. These are often documented in the project repositories themselves, frequently in the `issues` section.
 
-2. Fork the repository associated with project to your GitHub account. This means that you will have a copy of the repository under *your-GitHub-username/repository-name*. 
+2. Fork the repository associated with project to your GitHub account. This means that you will have a copy of the repository under *your-GitHub-username/repository-name*.
 
    Guidance on how to fork a repository can be found at [https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository).
 
@@ -58,7 +58,7 @@ Never made an open source contribution before? Wondering how contributions work 
 11. While not all pull requests may be merged, celebrate your contribution whether or not your pull request is merged! All changes move the project forward, and we thank you for helping the community!
 
 ## Rebase Early, Rebase Often!
-Projects tend to move at a fast pace, which means your fork may become behind upstream. Keeping your local fork in sync with upstream is called `rebasing`. This ensures your local copy is frequently refreshed with the latest changes from the community. 
+Projects tend to move at a fast pace, which means your fork may become behind upstream. Keeping your local fork in sync with upstream is called `rebasing`. This ensures your local copy is frequently refreshed with the latest changes from the community.
 
 Frequenty rebasing is *strongly* encouraged. If your local copy falls to far behind, you may encounter merge conflicts when submitting pull request. If this happens, you will have to triage (often by hand!) the differences in your local repository versus the changes upstream.
 
@@ -74,7 +74,7 @@ General questions relating a project should be opened in that projects repositor
 If your question is of the broader CrowdStrike community, please [open a community discussion](https://github.com/CrowdStrike/community/discussions/new).
 
 ## Submitting a New Project Idea
- If you do not see a project, repository, or would like the community to consider working on a specific piece of technology, please [open a community ticket](https://github.com/CrowdStrike/community/issues/new). 
+ If you do not see a project, repository, or would like the community to consider working on a specific piece of technology, please [open a community ticket](https://github.com/CrowdStrike/community/issues/new).
 
 
 # What does the Code of Conduct mean for me?
@@ -85,7 +85,5 @@ Each CrowdStrike project should have its own group of maintainers that issues ca
 ## Escalation Path
 If you do not feel safe communicating with the project maintainers, or if you feel the situation warrants, please escalate to:
 
-Shawn Wells<br/>
-Global Vice President, Solution Architecture<br/>
-[shawn.wells@crowdstrike.com](shawn.wells@crowdstrike.com)<br/>
-Personal Cell: [+1 443 534 0130](tel:+14435340130) (U.S. Eastern, GMT-5)
+Integration Solution Architect Team<br/>
+[integrations@crowdstrike.com](integrations@crowdstrike.com)<br/>

@@ -95,10 +95,8 @@ reporter of any incident.
 If you do not feel safe communicating with the project maintainers, or
 if you feel the situation warrants, please escalate to:
 
-Shawn Wells<br/>
-Global Vice President, Solution Architecture<br/>
-[shawn.wells@crowdstrike.com](shawn.wells@crowdstrike.com)<br/>
-Personal Cell: [+1 443 534 0130](tel:+14435340130) (U.S. Eastern, GMT-5)
+Integration Solution Architect Team<br/>
+[integrations@crowdstrike.com](integrations@crowdstrike.com)<br/>
 
 ### Enforcement Guidelines
 

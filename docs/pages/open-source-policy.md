@@ -55,7 +55,7 @@ GitHub Issues are used to report bugs. Submit a ticket here:<br/>
 ### Upstream Participation
 **No special permission is needed to contribute to upstream projects or communities**. 
 
-Do not release code into open source projects that incorporates CrowdStrike proprietary information. Speak with your team lead or manager, and if further assistance is needed, refer to Shawn Wells, Vice President of Solution Architecture, at [shawn.wells@crowdstrike.com](mailto:shawn.wells@crowdstrike.com).
+Do not release code into open source projects that incorporates CrowdStrike proprietary information. Speak with your team lead or manager, and if further assistance is needed, reach out to the Integration Solution Architect team, at [integrations@crowdstrike.com](mailto:integrations@crowdstrike.com).
 
 
 ### Joining the CrowdStrike GitHub Organization
