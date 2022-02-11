@@ -11,8 +11,8 @@
     {
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
-      "forks_count": 102,
-      "stargazers_count": 508,
+      "forks_count": 104,
+      "stargazers_count": 514,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
     },
@@ -28,7 +28,7 @@
       "name": "Cloud-AWS",
       "html_url": "https://github.com/CrowdStrike/Cloud-AWS",
       "forks_count": 33,
-      "stargazers_count": 44,
+      "stargazers_count": 45,
       "description": "A collection of projects supporting AWS Integration",
       "homepage": ""
     },
@@ -36,7 +36,7 @@
       "name": "Cloud-Azure",
       "html_url": "https://github.com/CrowdStrike/Cloud-Azure",
       "forks_count": 11,
-      "stargazers_count": 11,
+      "stargazers_count": 12,
       "description": "Discover for Cloud and Containers Azure",
       "homepage": ""
     },
@@ -83,7 +83,7 @@
     {
       "name": "Dockerfiles",
       "html_url": "https://github.com/CrowdStrike/Dockerfiles",
-      "forks_count": 20,
+      "forks_count": 21,
       "stargazers_count": 25,
       "description": "Automation to help create container images pre-loaded with the CrowdStrike Falcon sensor.",
       "homepage": ""
@@ -164,7 +164,7 @@
       "name": "automactc",
       "html_url": "https://github.com/CrowdStrike/automactc",
       "forks_count": 61,
-      "stargazers_count": 392,
+      "stargazers_count": 393,
       "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
       "homepage": ""
     },
@@ -227,7 +227,7 @@
     {
       "name": "cloud-tools-image",
       "html_url": "https://github.com/CrowdStrike/cloud-tools-image",
-      "forks_count": 5,
+      "forks_count": 6,
       "stargazers_count": 5,
       "description": "Command-line tools for remote communication with public and private cloud environments.",
       "homepage": "https://quay.io/repository/crowdstrike/cloud-tools-image"
@@ -243,15 +243,15 @@
     {
       "name": "community",
       "html_url": "https://github.com/CrowdStrike/community",
-      "forks_count": 6,
-      "stargazers_count": 6,
+      "forks_count": 7,
+      "stargazers_count": 9,
       "description": "CrowdStrike's Open Source Policy & Contribution Guide ",
       "homepage": "https://opensource.crowdstrike.com"
     },
     {
       "name": "container-image-scan",
       "html_url": "https://github.com/CrowdStrike/container-image-scan",
-      "forks_count": 10,
+      "forks_count": 9,
       "stargazers_count": 10,
       "description": "Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.",
       "homepage": ""
@@ -507,7 +507,7 @@
     {
       "name": "falcon-linux-install-bash",
       "html_url": "https://github.com/CrowdStrike/falcon-linux-install-bash",
-      "forks_count": 10,
+      "forks_count": 11,
       "stargazers_count": 10,
       "description": "Bash script to install Falcon Sensor, through the Falcon APIs, on a Linux endpoint.",
       "homepage": ""
@@ -524,15 +524,15 @@
       "name": "falcon-orchestrator",
       "html_url": "https://github.com/CrowdStrike/falcon-orchestrator",
       "forks_count": 55,
-      "stargazers_count": 167,
+      "stargazers_count": 166,
       "description": "CrowdStrike Falcon Orchestrator provides automated workflow and response capabilities",
       "homepage": ""
     },
     {
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
-      "forks_count": 34,
-      "stargazers_count": 96,
+      "forks_count": 35,
+      "stargazers_count": 107,
       "description": "The CrowdStrike Falcon SDK for Python",
       "homepage": "https://www.falconpy.io"
     },
@@ -763,8 +763,8 @@
     {
       "name": "psfalcon",
       "html_url": "https://github.com/CrowdStrike/psfalcon",
-      "forks_count": 21,
-      "stargazers_count": 125,
+      "forks_count": 23,
+      "stargazers_count": 129,
       "description": "PowerShell for CrowdStrike's OAuth2 APIs",
       "homepage": ""
     },
@@ -907,8 +907,8 @@
     {
       "name": "zscaler-FalconX-integration",
       "html_url": "https://github.com/CrowdStrike/zscaler-FalconX-integration",
-      "forks_count": 6,
-      "stargazers_count": 1,
+      "forks_count": 5,
+      "stargazers_count": 2,
       "description": "This is the integration to feed Falcon X IOC data into Zcaler's platform",
       "homepage": ""
     }
