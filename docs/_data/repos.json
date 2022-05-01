@@ -11,7 +11,7 @@
     {
       "name": "CRT",
       "html_url": "https://github.com/CrowdStrike/CRT",
-      "forks_count": 111,
+      "forks_count": 112,
       "stargazers_count": 556,
       "description": "Contact: CRT@crowdstrike.com",
       "homepage": ""
@@ -44,7 +44,7 @@
       "name": "Cloud-Benchmark",
       "html_url": "https://github.com/CrowdStrike/Cloud-Benchmark",
       "forks_count": 4,
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "description": "Cloud deployment size calculation utilities",
       "homepage": ""
     },
@@ -76,7 +76,7 @@
       "name": "CrowdFMS",
       "html_url": "https://github.com/CrowdStrike/CrowdFMS",
       "forks_count": 27,
-      "stargazers_count": 120,
+      "stargazers_count": 121,
       "description": "CrowdStrike Feed Management System. CrowdFMS is a framework for automating collection and processing of samples from VirusTotal, by leveraging the Private API system. This framework automatically downloads recent samples, which triggered an alert on the users YARA notification feed.",
       "homepage": ""
     },
@@ -91,7 +91,7 @@
     {
       "name": "FDR",
       "html_url": "https://github.com/CrowdStrike/FDR",
-      "forks_count": 6,
+      "forks_count": 7,
       "stargazers_count": 13,
       "description": "Falcon Data Replicator",
       "homepage": ""
@@ -124,7 +124,7 @@
       "name": "Tortilla",
       "html_url": "https://github.com/CrowdStrike/Tortilla",
       "forks_count": 49,
-      "stargazers_count": 262,
+      "stargazers_count": 263,
       "description": "",
       "homepage": ""
     },
@@ -139,7 +139,7 @@
     {
       "name": "ansible_collection_falcon",
       "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
-      "forks_count": 28,
+      "forks_count": 27,
       "stargazers_count": 31,
       "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
       "homepage": "https://galaxy.ansible.com/CrowdStrike/falcon"
@@ -163,7 +163,7 @@
     {
       "name": "automactc",
       "html_url": "https://github.com/CrowdStrike/automactc",
-      "forks_count": 64,
+      "forks_count": 63,
       "stargazers_count": 408,
       "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
       "homepage": ""
@@ -244,7 +244,7 @@
       "name": "community",
       "html_url": "https://github.com/CrowdStrike/community",
       "forks_count": 9,
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "description": "CrowdStrike's Open Source Policy & Contribution Guide ",
       "homepage": "https://opensource.crowdstrike.com"
     },
@@ -252,7 +252,7 @@
       "name": "container-image-scan",
       "html_url": "https://github.com/CrowdStrike/container-image-scan",
       "forks_count": 11,
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "description": "Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.",
       "homepage": ""
     },
@@ -492,7 +492,7 @@
       "name": "falcon-helm",
       "html_url": "https://github.com/CrowdStrike/falcon-helm",
       "forks_count": 21,
-      "stargazers_count": 28,
+      "stargazers_count": 29,
       "description": "Helm operator and charts for running CrowdStrike Falcon with Kubernetes",
       "homepage": "https://artifacthub.io/packages/helm/falcon-helm/falcon-sensor"
     },
@@ -516,7 +516,7 @@
       "name": "falcon-operator",
       "html_url": "https://github.com/CrowdStrike/falcon-operator",
       "forks_count": 12,
-      "stargazers_count": 16,
+      "stargazers_count": 17,
       "description": "",
       "homepage": "https://artifacthub.io/packages/olm/falcon-operator/falcon-operator"
     },
@@ -532,7 +532,7 @@
       "name": "falconpy",
       "html_url": "https://github.com/CrowdStrike/falconpy",
       "forks_count": 44,
-      "stargazers_count": 119,
+      "stargazers_count": 120,
       "description": "The CrowdStrike Falcon SDK for Python",
       "homepage": "https://www.falconpy.io"
     },
@@ -860,7 +860,7 @@
       "name": "travel-laptop",
       "html_url": "https://github.com/CrowdStrike/travel-laptop",
       "forks_count": 24,
-      "stargazers_count": 218,
+      "stargazers_count": 219,
       "description": "Auxiliary documentation and scripts around \"A Reasonably Safe Travel Burner Laptop\"",
       "homepage": ""
     },
