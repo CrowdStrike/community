@@ -22,7 +22,7 @@ jobs:
       - name: Install python3-github
         run: sudo apt install python3-github
 
-      - name: Update repos.json
+      - name: Update repos.yaml
         run: |
           ./scripts/generate-github-data.py -o ./data/repos.yaml -t ${{ secrets.GITHUB_TOKEN }}
           git add ./data/repos.yaml
