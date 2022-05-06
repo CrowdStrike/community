@@ -1,0 +1,73 @@
+site_name: Open Source @ CrowdStrike
+repo_url: https://github.com/crowdstrike/community
+edit_uri: edit/main/docs/
+
+theme:
+  logo: assets/img/CS_Logos_2020_FullWhite.png
+  favicon: assets/img/CS_Logos_2020_FullRed.png
+  name: material
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs.sticky
+    - toc.integrate
+    - toc.follow
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Contributing: contributing.md
+  - 'Open Source Policy': open-source-policy.md
+  - 'Code of Conduct': code-of-conduct.md
+
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+
+plugins:
+  - macros:
+      include_yaml:
+         - repos: data/repos.yaml
+
+extra:
+  data:
+    repodata: data/repos.json
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/crowdstrike
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/crowdstrike
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/crowdstrike
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/crowdstrike
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCsRdY9CtEVWTNO4ulwfzqVA
+
+extra_css:
+  - stylesheets/extra.css

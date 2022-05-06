@@ -24,12 +24,12 @@ jobs:
 
       - name: Update repos.json
         run: |
-          ./scripts/generate-github-data.py -i ./docs/repos.yaml -o ./docs/_data/repos.json -t ${{ secrets.GITHUB_TOKEN }}
-          git add ./docs/_data/repos.json
+          ./scripts/generate-github-data.py -o ./data/repos.yaml -t ${{ secrets.GITHUB_TOKEN }}
+          git add ./data/repos.yaml
           if git diff-index --quiet HEAD --; then
             echo "Skipping... nothing to commit"
             exit 0
           else
-            git commit -m "Updating repos.json metadata as of `date +'%Y-%m-%d %H:%M:%S'`"
+            git commit -m "Updating repos.yaml metadata as of `date +'%Y-%m-%d %H:%M:%S'`"
             git push
           fi

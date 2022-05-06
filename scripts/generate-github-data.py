@@ -8,17 +8,16 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i", "--input", required=True,
-                    help="list of github repos in yaml")
 parser.add_argument("-o", "--output", required=True,
-                    help="output github repos in json")
+                    help="output GitHub repos in json")
+parser.add_argument("--type", default="yaml", type=str, choices=['yaml', 'json'],
+                    help="output format of GitHub repos")
 parser.add_argument("-t", "--token",
                     help="GitHub token for API access")
 
 args = parser.parse_args()
 
-yamlfile = args.input
-jsonfile = args.output
+outfile = args.output
 r_list = []
 
 if args.token:
@@ -26,37 +25,33 @@ if args.token:
 else:
     g = Github()
 
-with open(yamlfile, 'r') as f:
-    repo_list = yaml.load(f, Loader=yaml.SafeLoader)
+for repo in g.get_organization(login="CrowdStrike").get_repos():
+    if not repo.fork and not repo.private and not repo.archived:
+        repo_dict = {"name": repo.name,
+                     "html_url": repo.html_url,
+                     "forks_count": repo.forks_count,
+                     "stargazers_count": repo.stargazers_count,
+                     "description": repo.description,
+                     "homepage": repo.homepage,
+                     "language": repo.language,
+                     "tags": repo.topics,
+                     "created": repo.created_at.strftime("%B %d, %Y"),
+                     "updated": repo.updated_at.strftime("%B %d, %Y"),
+                     }
 
-for l in repo_list["list"]:
-    for repo in l.values():
-        print(urlparse(repo).path.lstrip("/"))
-        try:
-            r = g.get_repo(urlparse(repo).path.lstrip("/"))
-            repo_dict = {"name": r.name,
-                         "html_url": repo,
-                         "forks_count": r.forks_count,
-                         "stargazers_count": r.stargazers_count,
-                         "description": r.description,
-                         "homepage": r.homepage}
+        # Ensure there are None doesn't exist as a value
+        for k, v in repo_dict.items():
+            if v is None:
+                repo_dict[k] = ""
 
-            # Ensure there are None doesn't exist as a value
-            for k, v in repo_dict.items():
-                if v is None:
-                    repo_dict[k] = ""
-
-            # Append the repo information into a list of dictionaries
-            r_list.append(repo_dict)
-        except GithubException as e:
-            if e.status != 404:
-                raise
-            else:
-                print("WARNING: '%s' does not exist! Please review 'repos.json'"
-                      "and remove the listing if necessary." % (r.full_name))
+        # Append the repo information into a list of dictionaries
+        r_list.append(repo_dict)
 
 # sort by name key
 r_list = sorted(r_list, key=lambda i: i['name'])
 
-with open(jsonfile, 'w', encoding='utf-8') as f:
-    json.dump({"list": r_list}, f, indent=2)
+with open(outfile, 'w', encoding='utf-8') as f:
+    if args.type == 'json':
+        json.dump({"list": r_list}, f, indent=2)
+    else:
+        yaml.dump({"list": r_list}, f, indent=2, sort_keys=False)
