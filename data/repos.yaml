@@ -227,7 +227,7 @@ list:
 - name: ansible_collection_falcon
   html_url: https://github.com/CrowdStrike/ansible_collection_falcon
   forks_count: 27
-  stargazers_count: 31
+  stargazers_count: 32
   description: Install and configure CrowdStrike's Falcon sensor via Ansible.
   homepage: https://galaxy.ansible.com/CrowdStrike/falcon
   language: Shell
@@ -241,7 +241,7 @@ list:
   - sensor
   - windows
   created: September 19, 2020
-  updated: April 22, 2022
+  updated: May 06, 2022
 - name: apbf
   html_url: https://github.com/CrowdStrike/apbf
   forks_count: 4
@@ -368,10 +368,10 @@ list:
   stargazers_count: 11
   description: 'CrowdStrike''s Open Source Policy & Contribution Guide '
   homepage: https://opensource.crowdstrike.com
-  language: Python
+  language: HTML
   tags: []
   created: July 22, 2020
-  updated: April 27, 2022
+  updated: May 06, 2022
 - name: container-image-scan
   html_url: https://github.com/CrowdStrike/container-image-scan
   forks_count: 13
@@ -527,7 +527,7 @@ list:
   updated: November 08, 2021
 - name: falcon-helm
   html_url: https://github.com/CrowdStrike/falcon-helm
-  forks_count: 22
+  forks_count: 23
   stargazers_count: 29
   description: Helm operator and charts for running CrowdStrike Falcon with Kubernetes
   homepage: https://artifacthub.io/packages/helm/falcon-helm/falcon-sensor
@@ -581,13 +581,13 @@ list:
 - name: falcon-scripts
   html_url: https://github.com/CrowdStrike/falcon-scripts
   forks_count: 17
-  stargazers_count: 17
+  stargazers_count: 18
   description: Scripts to install and configure Falcon Sensor
   homepage: ''
   language: PowerShell
   tags: []
   created: September 15, 2020
-  updated: April 30, 2022
+  updated: May 06, 2022
 - name: falconapictl
   html_url: https://github.com/CrowdStrike/falconapictl
   forks_count: 1
