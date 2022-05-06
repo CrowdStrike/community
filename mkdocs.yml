@@ -50,6 +50,7 @@ markdown_extensions:
   - tables
 
 plugins:
+  - search
   - macros:
       include_yaml:
          - repos: data/repos.yaml
