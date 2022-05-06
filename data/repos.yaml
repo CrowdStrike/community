@@ -400,7 +400,7 @@ list:
 - name: csproto
   html_url: https://github.com/CrowdStrike/csproto
   forks_count: 4
-  stargazers_count: 46
+  stargazers_count: 48
   description: CrowdStrike's Protocol Buffers library
   homepage: ''
   language: Go
@@ -408,7 +408,7 @@ list:
   - go
   - protobuf
   created: April 01, 2022
-  updated: April 30, 2022
+  updated: May 06, 2022
 - name: detection-container
   html_url: https://github.com/CrowdStrike/detection-container
   forks_count: 17
