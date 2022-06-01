@@ -2,23 +2,23 @@ list:
 - name: CAST
   html_url: https://github.com/CrowdStrike/CAST
   forks_count: 15
-  stargazers_count: 60
+  stargazers_count: 62
   description: CrowdStrike Archive Scan Tool
   homepage: ''
   language: PowerShell
   tags: []
   created: December 21, 2021
-  updated: April 13, 2022
+  updated: May 28, 2022
 - name: CRT
   html_url: https://github.com/CrowdStrike/CRT
-  forks_count: 112
-  stargazers_count: 556
+  forks_count: 113
+  stargazers_count: 562
   description: 'Contact: CRT@crowdstrike.com'
   homepage: ''
   language: PowerShell
   tags: []
   created: December 23, 2020
-  updated: April 27, 2022
+  updated: May 27, 2022
 - name: Chronicle-Backstory-Integration
   html_url: https://github.com/CrowdStrike/Chronicle-Backstory-Integration
   forks_count: 1
@@ -31,27 +31,27 @@ list:
   updated: April 19, 2021
 - name: Cloud-AWS
   html_url: https://github.com/CrowdStrike/Cloud-AWS
-  forks_count: 40
-  stargazers_count: 60
+  forks_count: 43
+  stargazers_count: 62
   description: A collection of projects supporting AWS Integration
   homepage: ''
   language: Python
   tags: []
   created: July 06, 2020
-  updated: April 26, 2022
+  updated: May 22, 2022
 - name: Cloud-Azure
   html_url: https://github.com/CrowdStrike/Cloud-Azure
   forks_count: 15
-  stargazers_count: 14
+  stargazers_count: 15
   description: Discover for Cloud and Containers Azure
   homepage: ''
   language: HCL
   tags: []
   created: August 03, 2020
-  updated: April 03, 2022
+  updated: May 22, 2022
 - name: Cloud-Benchmark
   html_url: https://github.com/CrowdStrike/Cloud-Benchmark
-  forks_count: 5
+  forks_count: 6
   stargazers_count: 9
   description: Cloud deployment size calculation utilities
   homepage: ''
@@ -135,13 +135,13 @@ list:
 - name: Forensics
   html_url: https://github.com/CrowdStrike/Forensics
   forks_count: 77
-  stargazers_count: 301
+  stargazers_count: 304
   description: Scripts and code referenced in CrowdStrike blog posts
   homepage: ''
   language: Python
   tags: []
   created: February 06, 2015
-  updated: March 04, 2022
+  updated: May 29, 2022
 - name: Google-Chronicle-Humio-Package-Integration
   html_url: https://github.com/CrowdStrike/Google-Chronicle-Humio-Package-Integration
   forks_count: 1
@@ -206,14 +206,14 @@ list:
 - name: SuperMem
   html_url: https://github.com/CrowdStrike/SuperMem
   forks_count: 34
-  stargazers_count: 170
+  stargazers_count: 169
   description: A python script developed to process Windows memory images based on
     triage type.
   homepage: ''
   language: Python
   tags: []
   created: September 02, 2021
-  updated: March 11, 2022
+  updated: May 28, 2022
 - name: Tortilla
   html_url: https://github.com/CrowdStrike/Tortilla
   forks_count: 49
@@ -223,11 +223,11 @@ list:
   language: C
   tags: []
   created: July 18, 2013
-  updated: April 29, 2022
+  updated: May 31, 2022
 - name: ansible_collection_falcon
   html_url: https://github.com/CrowdStrike/ansible_collection_falcon
-  forks_count: 27
-  stargazers_count: 32
+  forks_count: 28
+  stargazers_count: 33
   description: Install and configure CrowdStrike's Falcon sensor via Ansible.
   homepage: https://galaxy.ansible.com/CrowdStrike/falcon
   language: Shell
@@ -241,7 +241,7 @@ list:
   - sensor
   - windows
   created: September 19, 2020
-  updated: May 06, 2022
+  updated: May 16, 2022
 - name: apbf
   html_url: https://github.com/CrowdStrike/apbf
   forks_count: 4
@@ -259,13 +259,13 @@ list:
 - name: automactc
   html_url: https://github.com/CrowdStrike/automactc
   forks_count: 63
-  stargazers_count: 408
+  stargazers_count: 411
   description: 'AutoMacTC: Automated Mac Forensic Triage Collector'
   homepage: ''
   language: Python
   tags: []
   created: March 05, 2019
-  updated: April 22, 2022
+  updated: May 28, 2022
 - name: aws-control-tower-for-horizon
   html_url: https://github.com/CrowdStrike/aws-control-tower-for-horizon
   forks_count: 2
@@ -300,9 +300,8 @@ list:
 - name: caracara
   html_url: https://github.com/CrowdStrike/caracara
   forks_count: 4
-  stargazers_count: 5
-  description: Python 3 tools that leverage the FalconPy SDK to interact with the
-    CrowdStrike Falcon API
+  stargazers_count: 6
+  description: Developer enhancements (DX) for FalconPy, the CrowdStrike Python SDK
   homepage: ''
   language: Python
   tags:
@@ -311,15 +310,20 @@ list:
   - crowdstrike
   - crowdstrike-apis
   - crowdstrike-falconpy
+  - devsecops
   - falcon
   - falconpy
   - falconpy-tools
   - python
   - python3
+  - python310
+  - python37
+  - python38
+  - python39
   - toolbox
   - toolkit
   created: September 12, 2021
-  updated: April 24, 2022
+  updated: May 29, 2022
 - name: cassandra-tools
   html_url: https://github.com/CrowdStrike/cassandra-tools
   forks_count: 19
@@ -333,7 +337,7 @@ list:
   updated: January 17, 2022
 - name: chopshop
   html_url: https://github.com/CrowdStrike/chopshop
-  forks_count: 4
+  forks_count: 5
   stargazers_count: 29
   description: Mitre chopshop network decoder framework
   homepage: ''
@@ -365,16 +369,16 @@ list:
 - name: community
   html_url: https://github.com/CrowdStrike/community
   forks_count: 10
-  stargazers_count: 11
+  stargazers_count: 13
   description: 'CrowdStrike''s Open Source Policy & Contribution Guide '
   homepage: https://opensource.crowdstrike.com
   language: HTML
   tags: []
   created: July 22, 2020
-  updated: May 06, 2022
+  updated: May 18, 2022
 - name: container-image-scan
   html_url: https://github.com/CrowdStrike/container-image-scan
-  forks_count: 13
+  forks_count: 14
   stargazers_count: 13
   description: Code to scan a container with CrowdStrike and return response codes
     indicating pass/fail status.
@@ -399,8 +403,8 @@ list:
   updated: February 17, 2022
 - name: csproto
   html_url: https://github.com/CrowdStrike/csproto
-  forks_count: 4
-  stargazers_count: 48
+  forks_count: 5
+  stargazers_count: 54
   description: CrowdStrike's Protocol Buffers library
   homepage: ''
   language: Go
@@ -408,7 +412,7 @@ list:
   - go
   - protobuf
   created: April 01, 2022
-  updated: May 06, 2022
+  updated: May 29, 2022
 - name: detection-container
   html_url: https://github.com/CrowdStrike/detection-container
   forks_count: 17
@@ -432,24 +436,24 @@ list:
 - name: easyrulesgo
   html_url: https://github.com/CrowdStrike/easyrulesgo
   forks_count: 8
-  stargazers_count: 46
+  stargazers_count: 47
   description: A port of Easy Rules in Go
   homepage: ''
   language: Go
   tags: []
   created: May 16, 2017
-  updated: May 05, 2022
+  updated: May 24, 2022
 - name: ember-aria
   html_url: https://github.com/CrowdStrike/ember-aria
-  forks_count: 1
-  stargazers_count: 10
-  description: ARIA utilities for helping create some of the mare complex ARIA design
+  forks_count: 2
+  stargazers_count: 11
+  description: ARIA utilities for helping create some of the more complex ARIA design
     patterns. Follows https://www.w3.org/TR/wai-aria-practices/
   homepage: https://ember-aria.pages.dev/docs
   language: TypeScript
   tags: []
   created: September 14, 2021
-  updated: March 29, 2022
+  updated: May 31, 2022
 - name: ember-browser-services
   html_url: https://github.com/CrowdStrike/ember-browser-services
   forks_count: 7
@@ -527,20 +531,21 @@ list:
   updated: November 08, 2021
 - name: falcon-helm
   html_url: https://github.com/CrowdStrike/falcon-helm
-  forks_count: 23
-  stargazers_count: 29
-  description: Helm operator and charts for running CrowdStrike Falcon with Kubernetes
+  forks_count: 24
+  stargazers_count: 30
+  description: Helm Charts for running CrowdStrike Falcon with Kubernetes
   homepage: https://artifacthub.io/packages/helm/falcon-helm/falcon-sensor
   language: Smarty
   tags:
+  - chart
   - container
+  - helm
   - k8s
   - kubernetes
-  - kubernetes-operator
   - security
   - sensor
   created: January 13, 2021
-  updated: April 30, 2022
+  updated: May 11, 2022
 - name: falcon-integration-gateway
   html_url: https://github.com/CrowdStrike/falcon-integration-gateway
   forks_count: 11
@@ -553,7 +558,7 @@ list:
   updated: January 02, 2022
 - name: falcon-operator
   html_url: https://github.com/CrowdStrike/falcon-operator
-  forks_count: 12
+  forks_count: 13
   stargazers_count: 17
   description: ''
   homepage: https://artifacthub.io/packages/olm/falcon-operator/falcon-operator
@@ -570,24 +575,26 @@ list:
 - name: falcon-orchestrator
   html_url: https://github.com/CrowdStrike/falcon-orchestrator
   forks_count: 57
-  stargazers_count: 171
+  stargazers_count: 172
   description: CrowdStrike Falcon Orchestrator provides automated workflow and response
     capabilities
   homepage: ''
   language: JavaScript
   tags: []
   created: April 22, 2016
-  updated: April 20, 2022
+  updated: May 20, 2022
 - name: falcon-scripts
   html_url: https://github.com/CrowdStrike/falcon-scripts
-  forks_count: 17
-  stargazers_count: 18
+  forks_count: 18
+  stargazers_count: 19
   description: Scripts to install and configure Falcon Sensor
   homepage: ''
   language: PowerShell
-  tags: []
+  tags:
+  - scripting
+  - scripts
   created: September 15, 2020
-  updated: May 06, 2022
+  updated: May 25, 2022
 - name: falconapictl
   html_url: https://github.com/CrowdStrike/falconapictl
   forks_count: 1
@@ -601,7 +608,7 @@ list:
 - name: falconjs
   html_url: https://github.com/CrowdStrike/falconjs
   forks_count: 2
-  stargazers_count: 2
+  stargazers_count: 3
   description: CrowdStrike Falcon API JS library for the browser and Node
   homepage: ''
   language: TypeScript
@@ -612,11 +619,11 @@ list:
   - node
   - typescript
   created: January 09, 2022
-  updated: February 04, 2022
+  updated: May 26, 2022
 - name: falconpy
   html_url: https://github.com/CrowdStrike/falconpy
-  forks_count: 44
-  stargazers_count: 121
+  forks_count: 46
+  stargazers_count: 126
   description: The CrowdStrike Falcon SDK for Python
   homepage: https://www.falconpy.io
   language: Python
@@ -642,17 +649,17 @@ list:
   - sdk
   - windows
   created: November 12, 2020
-  updated: May 05, 2022
+  updated: May 29, 2022
 - name: faltest
   html_url: https://github.com/CrowdStrike/faltest
   forks_count: 9
-  stargazers_count: 22
+  stargazers_count: 23
   description: A different take on WebDriver browser testing
   homepage: ''
   language: JavaScript
   tags: []
   created: September 09, 2019
-  updated: January 06, 2022
+  updated: May 27, 2022
 - name: fortio
   html_url: https://github.com/CrowdStrike/fortio
   forks_count: 3
@@ -665,14 +672,14 @@ list:
   updated: April 07, 2022
 - name: gofalcon
   html_url: https://github.com/CrowdStrike/gofalcon
-  forks_count: 17
+  forks_count: 18
   stargazers_count: 20
   description: Golang-based SDK to CrowdStrike's APIs
   homepage: ''
   language: Go
   tags: []
   created: January 13, 2021
-  updated: April 08, 2022
+  updated: May 19, 2022
 - name: gotel
   html_url: https://github.com/CrowdStrike/gotel
   forks_count: 10
@@ -703,26 +710,16 @@ list:
   tags: []
   created: June 04, 2021
   updated: January 31, 2022
-- name: integration-docs
-  html_url: https://github.com/CrowdStrike/integration-docs
+- name: integrations
+  html_url: https://github.com/CrowdStrike/integrations
   forks_count: 2
   stargazers_count: 0
   description: Code behind integrations.crowdstrike.com
-  homepage: ''
-  language: JavaScript
+  homepage: https://integrations.crowdstrike.com
+  language: HTML
   tags: []
   created: October 27, 2021
-  updated: December 21, 2021
-- name: integration-docs-gitbook
-  html_url: https://github.com/CrowdStrike/integration-docs-gitbook
-  forks_count: 1
-  stargazers_count: 0
-  description: testing gitbooks integration
-  homepage: ''
-  language: ''
-  tags: []
-  created: December 22, 2021
-  updated: December 22, 2021
+  updated: May 13, 2022
 - name: ivan
   html_url: https://github.com/CrowdStrike/ivan
   forks_count: 2
@@ -800,16 +797,6 @@ list:
   - tsv
   created: November 05, 2021
   updated: February 16, 2022
-- name: packages
-  html_url: https://github.com/CrowdStrike/packages
-  forks_count: 1
-  stargazers_count: 0
-  description: Public repository of integration packages
-  homepage: ''
-  language: ''
-  tags: []
-  created: January 07, 2022
-  updated: January 07, 2022
 - name: promwatch
   html_url: https://github.com/CrowdStrike/promwatch
   forks_count: 0
@@ -823,8 +810,8 @@ list:
   updated: March 08, 2022
 - name: psfalcon
   html_url: https://github.com/CrowdStrike/psfalcon
-  forks_count: 30
-  stargazers_count: 149
+  forks_count: 31
+  stargazers_count: 162
   description: PowerShell for CrowdStrike's OAuth2 APIs
   homepage: ''
   language: PowerShell
@@ -837,7 +824,7 @@ list:
   - powershell
   - powershell-module
   created: September 25, 2020
-  updated: May 05, 2022
+  updated: May 27, 2022
 - name: puppet-falcon
   html_url: https://github.com/CrowdStrike/puppet-falcon
   forks_count: 2
@@ -888,6 +875,17 @@ list:
   tags: []
   created: October 12, 2021
   updated: January 05, 2022
+- name: tailwind-toucan-base
+  html_url: https://github.com/CrowdStrike/tailwind-toucan-base
+  forks_count: 0
+  stargazers_count: 3
+  description: Base Tailwind config for the Toucan design system.
+  homepage: https://tailwind-toucan-base.pages.dev/
+  language: JavaScript
+  tags:
+  - tailwind
+  created: September 14, 2021
+  updated: May 27, 2022
 - name: template-gitbook-workshop
   html_url: https://github.com/CrowdStrike/template-gitbook-workshop
   forks_count: 4
@@ -932,13 +930,13 @@ list:
 - name: xwf-yara-scanner
   html_url: https://github.com/CrowdStrike/xwf-yara-scanner
   forks_count: 13
-  stargazers_count: 71
+  stargazers_count: 74
   description: ''
   homepage: ''
   language: C
   tags: []
   created: July 27, 2021
-  updated: April 12, 2022
+  updated: May 23, 2022
 - name: yargs-help-output
   html_url: https://github.com/CrowdStrike/yargs-help-output
   forks_count: 1
