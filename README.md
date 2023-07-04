@@ -46,6 +46,9 @@ Last updated 2022-04-19
       - [cloud-tools-image](https://github.com/CrowdStrike/cloud-tools-image/)
       - [detection container](https://github.com/CrowdStrike/detection-container)
 
+## Blue Team Tools
+ - [Falcon Contain](https://github.com/Xorlent/Falcon-Contain)
+
 ## API SDKs
  - [psfalcon](https://github.com/CrowdStrike/psfalcon)
  - [falconpy](https://github.com/CrowdStrike/falconpy)
