@@ -1,0 +1,95 @@
+## Projects List
+<section>
+<label for="Input">Search Projects</label>
+<input type="text" class="projectSearchInput" id="Input" onkeyup="filterFunction()" placeholder="search term" title="Type in keyword" label="Search Projects">
+</section>
+<section>
+<table id="projectTable" class="repoproject" cellspacing="0" width="100%">
+  <thead>
+    <tr>
+      <th class="project-th"><div class="project-pth"><h3>Name</h3></div></th>
+      <th class="project-th"><div class="project-pth"><h3>Description</h3></div></th>
+      <th class="project-dth"><div class="project-img">{% include "assets/star.svg" %}</div></th>
+      <th class="project-dth"><div class="project-img">{% include "assets/git-branch-16.svg" %}</div></th>
+    </tr>
+  </thead>
+  <tbody>
+<div class="project-list" id="project-list">
+  {% for item in repos['list'] %}
+    <tr class="project-row">
+      <td class="project-td"> <div class="project-h2"><h2><a class="project-link" href="{{item.html_url}}" title="GitHub Project" target="_blank"> {{item.name}} </a></h2> </div>
+	 <h5> Updated: {{ item.updated }} </h5>
+	 <h5> Created: {{ item.created }} </h5>
+        </div>
+      </td>
+      <td class="project-td">
+        <div class="project-p">
+          <p>{{ item.description }}</p>
+          {% if item.tags %}
+	  <h6> tags: {{ item.tags |join(', ') }} </h6>
+	  {% endif %}
+          {% if item.language %}
+	  <h6> language: {{ item.language }} </h6>
+  	  {% endif %}
+	</div>
+      </td>
+      <td class="project-td">
+        <div class="project-d">
+          {% if item.stargazers_count >0 %}
+          <a class="project-link" href="{{item.html_url}}/stargazers" title="Stargazers" target="_blank"> <span class="fas fa-star"></span> {{item.stargazers_count}}</a>
+          {% endif %}
+        </div>
+      </td>
+      <td class="project-td">
+        <div class="project-d">
+          {% if item.forks_count >0 %}
+          <a class="project-link" href="{{item.html_url}}/network" title="Forks" target="_blank"> <i class="fas fa-code-branch"></i> {{item.forks_count}}</a>
+          {% endif %}
+	</div>
+      </td>
+  {% endfor %}
+</div>
+  </tbody>
+</table>
+</section>
+
+<script>
+function filterFunction() {
+    var input, filter, cardDeck, card, cardTitle, cardDis, i, txtValue;
+    input = document.getElementById("Input");
+    filter = input.value.toUpperCase();
+    cardDeck = document.getElementById("project-list");
+    card = cardDeck.getElementsByClassName("project-row");
+    for (i = 0; i < card.length; i++) {
+        cardTitle = card[i].getElementsByClassName("project-td")[0].textContent || card[i].getElementsByClassName("project-p")[0].innerText;
+        cardDis = card[i].getElementsByClassName("project-p")[0].textContent || card[i].getElementsByClassName("project-p")[0].innerText;
+        txtValue = cardTitle + " " + cardDis;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            card[i].style.display = "";
+        } else {
+            card[i].style.display = "none";
+        }
+    }
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("project-td");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    var foot = panel.nextElementSibling;
+    var link = foot.children[0].href;
+    if (window.matchMedia("(min-width: 730px)").matches){
+        window.open(link, "_blank");
+      }
+    if (panel.style.display === "block") {
+        panel.style.display = "none";
+    } 
+    else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
