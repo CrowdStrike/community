@@ -1,0 +1,2761 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../contributing/">
+      
+      
+      <link rel="icon" href="../assets/img/CS_Logos_2020_FullRed.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Projects - Open Source @ CrowdStrike</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#crowdstrike-open-source-projects" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Open Source @ CrowdStrike" class="md-header__button md-logo" aria-label="Open Source @ CrowdStrike" data-md-component="logo">
+      
+  <img src="../assets/img/CS_Logos_2020_FullWhite.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Open Source @ CrowdStrike
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Projects
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/crowdstrike/community" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Projects
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contributing
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../open-source-policy/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Open Source Policy
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../code-of-conduct/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Code of Conduct
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Open Source @ CrowdStrike" class="md-nav__button md-logo" aria-label="Open Source @ CrowdStrike" data-md-component="logo">
+      
+  <img src="../assets/img/CS_Logos_2020_FullWhite.png" alt="logo">
+
+    </a>
+    Open Source @ CrowdStrike
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/crowdstrike/community" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-source-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Open Source Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code-of-conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+  
+  
+
+
+<h1 id="crowdstrike-open-source-projects">CrowdStrike Open Source Projects</h1>
+<p>The projects listed were developed by CrowdStrike, or CrowdStrike contributed to the development of the project. The code is available for public use, and we encourage you to check it out!</p>
+<p><br></p>
+<section>
+  <label for="Input">Search Projects</label>
+  <input type="text" class="projectSearchInput" id="Input" onkeyup="filterFunction()" placeholder="search term" title="Type in keyword" label="Search Projects">
+</section>
+<section>
+  <div id="project-table" class="project-table">
+    <div class="project-heading"><h3>Name</h3></div>
+    <div class="project-heading"><h3>Description</h3></div>
+    <div class="project-img"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm-2.25.75a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.492 2.492 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25zM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zM3.5 3.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0z"/></svg></div>
+    <div class="project-img"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21 12 17.27Z"/></svg></div>
+  </div>
+</section>
+<section>
+<div class="project-list" id="project-list">
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/CAST" title="GitHub Project" target="_blank">CAST</a></h2>
+     <h5>Updated: July 21, 2022</h5>
+     <h5>Created: December 21, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike Archive Scan Tool</p>
+
+
+      <h6> language: PowerShell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CAST/stargazers" title="Stargazers" target="_blank">65</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CAST/network" title="Forks" target="_blank">16</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/CRT" title="GitHub Project" target="_blank">CRT</a></h2>
+     <h5>Updated: July 31, 2022</h5>
+     <h5>Created: December 23, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Contact: CRT@crowdstrike.com</p>
+
+
+      <h6> language: PowerShell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CRT/stargazers" title="Stargazers" target="_blank">573</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CRT/network" title="Forks" target="_blank">115</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Chronicle-Backstory-Integration" title="GitHub Project" target="_blank">Chronicle-Backstory-Integration</a></h2>
+     <h5>Updated: April 19, 2021</h5>
+     <h5>Created: December 22, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Repository for sample integrations for CrowdStrike with Chronicle Backstory</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Chronicle-Backstory-Integration/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Chronicle-Backstory-Integration/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Cloud-AWS" title="GitHub Project" target="_blank">Cloud-AWS</a></h2>
+     <h5>Updated: July 29, 2022</h5>
+     <h5>Created: July 06, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>A collection of projects supporting AWS Integration</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-AWS/stargazers" title="Stargazers" target="_blank">69</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-AWS/network" title="Forks" target="_blank">50</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Cloud-Azure" title="GitHub Project" target="_blank">Cloud-Azure</a></h2>
+     <h5>Updated: May 22, 2022</h5>
+     <h5>Created: August 03, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Discover for Cloud and Containers Azure</p>
+
+
+      <h6> language: HCL </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-Azure/stargazers" title="Stargazers" target="_blank">15</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-Azure/network" title="Forks" target="_blank">14</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Cloud-Benchmark" title="GitHub Project" target="_blank">Cloud-Benchmark</a></h2>
+     <h5>Updated: July 29, 2022</h5>
+     <h5>Created: March 30, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Cloud deployment size calculation utilities</p>
+
+      <h6> tags: benchmark, cloud-auditing, crowdstrike, crowdstrike-falcon, crowdstrike-horizon, cspm, cspm-benchmark, falcon, horizon </h6>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-Benchmark/stargazers" title="Stargazers" target="_blank">9</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-Benchmark/network" title="Forks" target="_blank">5</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Cloud-GCP" title="GitHub Project" target="_blank">Cloud-GCP</a></h2>
+     <h5>Updated: December 07, 2021</h5>
+     <h5>Created: April 01, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>A collection of projects supporting GCP integration</p>
+
+
+      <h6> language: HCL </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-GCP/stargazers" title="Stargazers" target="_blank">2</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Cloud-GCP/network" title="Forks" target="_blank">5</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/CrowdFMS" title="GitHub Project" target="_blank">CrowdFMS</a></h2>
+     <h5>Updated: June 23, 2022</h5>
+     <h5>Created: December 10, 2013</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike Feed Management System. CrowdFMS is a framework for automating collection and processing of samples from VirusTotal, by leveraging the Private API system. This framework automatically downloads recent samples, which triggered an alert on the users YARA notification feed.</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CrowdFMS/stargazers" title="Stargazers" target="_blank">120</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CrowdFMS/network" title="Forks" target="_blank">27</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/CrowdStrike-Devices-Humio-Package-Integration" title="GitHub Project" target="_blank">CrowdStrike-Devices-Humio-Package-Integration</a></h2>
+     <h5>Updated: December 30, 2021</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>This repository contains the consumer and shipper code driving data to the CrowdStrike Devices Humio Package</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CrowdStrike-Devices-Humio-Package-Integration/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/CrowdStrike-Intel-Humio-Package-Integration" title="GitHub Project" target="_blank">CrowdStrike-Intel-Humio-Package-Integration</a></h2>
+     <h5>Updated: October 12, 2021</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/CrowdStrike-Intel-Humio-Package-Integration/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/CrowdStrike-Spotlight-Humio-Package-Integration" title="GitHub Project" target="_blank">CrowdStrike-Spotlight-Humio-Package-Integration</a></h2>
+     <h5>Updated: October 12, 2021</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/FDR" title="GitHub Project" target="_blank">FDR</a></h2>
+     <h5>Updated: July 07, 2022</h5>
+     <h5>Created: April 06, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Falcon Data Replicator</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/FDR/stargazers" title="Stargazers" target="_blank">19</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/FDR/network" title="Forks" target="_blank">7</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Forensics" title="GitHub Project" target="_blank">Forensics</a></h2>
+     <h5>Updated: June 25, 2022</h5>
+     <h5>Created: February 06, 2015</h5>
+      </div>
+      <div class="project-body">
+          <p>Scripts and code referenced in CrowdStrike blog posts</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Forensics/stargazers" title="Stargazers" target="_blank">306</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Forensics/network" title="Forks" target="_blank">77</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Google-Chronicle-Humio-Package-Integration" title="GitHub Project" target="_blank">Google-Chronicle-Humio-Package-Integration</a></h2>
+     <h5>Updated: October 14, 2021</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>This repository contain the code to enable Google Chronicle Humio Package Integration</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Google-Chronicle-Humio-Package-Integration/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/HEC-Log-Shipper" title="GitHub Project" target="_blank">HEC-Log-Shipper</a></h2>
+     <h5>Updated: January 04, 2022</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>This repository contains examples of code used to send data to Humio instances</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/HEC-Log-Shipper/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/MISP-tools" title="GitHub Project" target="_blank">MISP-tools</a></h2>
+     <h5>Updated: May 05, 2022</h5>
+     <h5>Created: March 17, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>Integrate CrowdStrike with your instance of MISP</p>
+
+      <h6> tags: crowdstrike, crowdstrike-api, crowdstrike-apis, crowdstrike-falcon, crowdstrike-falcon-x, falcon-x, intel, misp, pymisp </h6>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/MISP-tools/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/PartyTicketDecryptor" title="GitHub Project" target="_blank">PartyTicketDecryptor</a></h2>
+     <h5>Updated: March 02, 2022</h5>
+     <h5>Created: March 01, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/PartyTicketDecryptor/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration" title="GitHub Project" target="_blank">Proofpoint-SIEM-API-Humio-Package-Integration</a></h2>
+     <h5>Updated: October 12, 2021</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/SuperMem" title="GitHub Project" target="_blank">SuperMem</a></h2>
+     <h5>Updated: July 28, 2022</h5>
+     <h5>Created: September 02, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>A python script developed to process Windows memory images based on triage type.</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/SuperMem/stargazers" title="Stargazers" target="_blank">175</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/SuperMem/network" title="Forks" target="_blank">34</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/Tortilla" title="GitHub Project" target="_blank">Tortilla</a></h2>
+     <h5>Updated: July 19, 2022</h5>
+     <h5>Created: July 18, 2013</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: C </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Tortilla/stargazers" title="Stargazers" target="_blank">268</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/Tortilla/network" title="Forks" target="_blank">50</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ansible_collection_falcon" title="GitHub Project" target="_blank">ansible_collection_falcon</a></h2>
+     <h5>Updated: July 25, 2022</h5>
+     <h5>Created: September 19, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Install and configure CrowdStrike's Falcon sensor via Ansible.</p>
+
+      <h6> tags: ansible, crowdstrike, falcon, linux, mac, security, sensor, windows </h6>
+
+
+      <h6> language: Shell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ansible_collection_falcon/stargazers" title="Stargazers" target="_blank">39</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ansible_collection_falcon/network" title="Forks" target="_blank">33</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/apbf" title="GitHub Project" target="_blank">apbf</a></h2>
+     <h5>Updated: July 15, 2022</h5>
+     <h5>Created: May 20, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Go package implementing Age-Partitioned Bloom Filters (APBF)</p>
+
+      <h6> tags: apbf, bloom, bloom-filter, go </h6>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/apbf/stargazers" title="Stargazers" target="_blank">17</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/apbf/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/automactc" title="GitHub Project" target="_blank">automactc</a></h2>
+     <h5>Updated: July 29, 2022</h5>
+     <h5>Created: March 05, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>AutoMacTC: Automated Mac Forensic Triage Collector</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/automactc/stargazers" title="Stargazers" target="_blank">422</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/automactc/network" title="Forks" target="_blank">66</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/aws-control-tower-for-horizon" title="GitHub Project" target="_blank">aws-control-tower-for-horizon</a></h2>
+     <h5>Updated: September 24, 2021</h5>
+     <h5>Created: September 24, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>How to setup AWS Control Tower to automatically register new AWS accounts with CrowdStrike Horizon.</p>
+
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/aws-control-tower-for-horizon/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/aws-network-firewall" title="GitHub Project" target="_blank">aws-network-firewall</a></h2>
+     <h5>Updated: September 28, 2021</h5>
+     <h5>Created: September 24, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>How to integrate CrowdStrike Threat Intelligence with AWS Network Firewall</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/aws-network-firewall/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/bpfmon-example" title="GitHub Project" target="_blank">bpfmon-example</a></h2>
+     <h5>Updated: March 30, 2022</h5>
+     <h5>Created: January 28, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>proof-of-concept example of using eBPF to Monitor for eBPF Map tampering</p>
+
+
+      <h6> language: C </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/bpfmon-example/stargazers" title="Stargazers" target="_blank">9</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/bpfmon-example/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/caracara" title="GitHub Project" target="_blank">caracara</a></h2>
+     <h5>Updated: July 27, 2022</h5>
+     <h5>Created: September 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Developer enhancements (DX) for FalconPy, the CrowdStrike Python SDK</p>
+
+      <h6> tags: api, caracara, crowdstrike, crowdstrike-apis, crowdstrike-falconpy, devsecops, falcon, falconpy, falconpy-tools, python, python3, python310, python37, python38, python39, toolbox, toolkit </h6>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/caracara/stargazers" title="Stargazers" target="_blank">9</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/caracara/network" title="Forks" target="_blank">5</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/cassandra-tools" title="GitHub Project" target="_blank">cassandra-tools</a></h2>
+     <h5>Updated: January 17, 2022</h5>
+     <h5>Created: September 12, 2015</h5>
+      </div>
+      <div class="project-body">
+          <p>Python Fabric scripts to help automate the launching and managing of clusters for testing</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/cassandra-tools/stargazers" title="Stargazers" target="_blank">55</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/cassandra-tools/network" title="Forks" target="_blank">20</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/chopshop" title="GitHub Project" target="_blank">chopshop</a></h2>
+     <h5>Updated: January 14, 2021</h5>
+     <h5>Created: March 13, 2015</h5>
+      </div>
+      <div class="project-body">
+          <p>Mitre chopshop network decoder framework</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/chopshop/stargazers" title="Stargazers" target="_blank">29</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/chopshop/network" title="Forks" target="_blank">5</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/cloud-tools-image" title="GitHub Project" target="_blank">cloud-tools-image</a></h2>
+     <h5>Updated: January 31, 2022</h5>
+     <h5>Created: January 22, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Command-line tools for remote communication with public and private cloud environments.</p>
+
+
+      <h6> language: Shell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/cloud-tools-image/stargazers" title="Stargazers" target="_blank">5</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/cloud-tools-image/network" title="Forks" target="_blank">6</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/commitlint" title="GitHub Project" target="_blank">commitlint</a></h2>
+     <h5>Updated: January 05, 2022</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>commitlint settings for CrowdStrike</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/commitlint/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/commitlint/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/community" title="GitHub Project" target="_blank">community</a></h2>
+     <h5>Updated: June 25, 2022</h5>
+     <h5>Created: July 22, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike's Open Source Policy & Contribution Guide </p>
+
+
+      <h6> language: HTML </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/community/stargazers" title="Stargazers" target="_blank">14</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/community/network" title="Forks" target="_blank">10</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/container-image-scan" title="GitHub Project" target="_blank">container-image-scan</a></h2>
+     <h5>Updated: July 19, 2022</h5>
+     <h5>Created: February 10, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/container-image-scan/stargazers" title="Stargazers" target="_blank">15</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/container-image-scan/network" title="Forks" target="_blank">15</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/container-image-scan-action" title="GitHub Project" target="_blank">container-image-scan-action</a></h2>
+     <h5>Updated: July 18, 2022</h5>
+     <h5>Created: March 11, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike Container Image Scan Github Action</p>
+
+      <h6> tags: cicd, containers, continuous-integration, security </h6>
+
+
+      <h6> language: Shell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/container-image-scan-action/stargazers" title="Stargazers" target="_blank">8</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/container-image-scan-action/network" title="Forks" target="_blank">5</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/csproto" title="GitHub Project" target="_blank">csproto</a></h2>
+     <h5>Updated: July 27, 2022</h5>
+     <h5>Created: April 01, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike's Protocol Buffers library</p>
+
+      <h6> tags: go, protobuf </h6>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/csproto/stargazers" title="Stargazers" target="_blank">73</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/csproto/network" title="Forks" target="_blank">6</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/detection-container" title="GitHub Project" target="_blank">detection-container</a></h2>
+     <h5>Updated: July 22, 2022</h5>
+     <h5>Created: August 05, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: PHP </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/detection-container/stargazers" title="Stargazers" target="_blank">19</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/detection-container/network" title="Forks" target="_blank">17</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/docs" title="GitHub Project" target="_blank">docs</a></h2>
+     <h5>Updated: May 27, 2021</h5>
+     <h5>Created: May 27, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Documentation for CrowdStrike's open source projects.</p>
+
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/docs/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/easyrulesgo" title="GitHub Project" target="_blank">easyrulesgo</a></h2>
+     <h5>Updated: July 29, 2022</h5>
+     <h5>Created: May 16, 2017</h5>
+      </div>
+      <div class="project-body">
+          <p>A port of Easy Rules in Go</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/easyrulesgo/stargazers" title="Stargazers" target="_blank">49</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/easyrulesgo/network" title="Forks" target="_blank">9</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-aria" title="GitHub Project" target="_blank">ember-aria</a></h2>
+     <h5>Updated: June 10, 2022</h5>
+     <h5>Created: September 14, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>ARIA utilities for helping create some of the more complex ARIA design patterns. Follows https://www.w3.org/TR/wai-aria-practices/</p>
+
+
+      <h6> language: TypeScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-aria/stargazers" title="Stargazers" target="_blank">14</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-aria/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-browser-services" title="GitHub Project" target="_blank">ember-browser-services</a></h2>
+     <h5>Updated: June 20, 2022</h5>
+     <h5>Created: November 11, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Services for interacting with browser APIs so that you can have fine-grained control in tests.  </p>
+
+      <h6> tags: ember, pwa, services, testing </h6>
+
+
+      <h6> language: TypeScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-browser-services/stargazers" title="Stargazers" target="_blank">42</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-browser-services/network" title="Forks" target="_blank">7</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-cli-content-for-nested" title="GitHub Project" target="_blank">ember-cli-content-for-nested</a></h2>
+     <h5>Updated: January 04, 2019</h5>
+     <h5>Created: October 16, 2018</h5>
+      </div>
+      <div class="project-body">
+          <p>ember-cli nested addons contentFor workaround</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-cli-content-for-nested/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-number-to-words-shim" title="GitHub Project" target="_blank">ember-number-to-words-shim</a></h2>
+     <h5>Updated: January 13, 2022</h5>
+     <h5>Created: July 09, 2018</h5>
+      </div>
+      <div class="project-body">
+          <p>Ember.js number-to-words shim</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-number-to-words-shim/stargazers" title="Stargazers" target="_blank">3</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-number-to-words-shim/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-three" title="GitHub Project" target="_blank">ember-three</a></h2>
+     <h5>Updated: November 03, 2021</h5>
+     <h5>Created: June 22, 2018</h5>
+      </div>
+      <div class="project-body">
+          <p>Ember.js three.js shim</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-three/stargazers" title="Stargazers" target="_blank">4</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-three/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-toucan-styles" title="GitHub Project" target="_blank">ember-toucan-styles</a></h2>
+     <h5>Updated: June 30, 2022</h5>
+     <h5>Created: June 06, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>Ember wrapper, CSS, and JS utilities for working with the Toucan design system</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ember-url-hash-polyfill" title="GitHub Project" target="_blank">ember-url-hash-polyfill</a></h2>
+     <h5>Updated: March 07, 2022</h5>
+     <h5>Created: April 21, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Support for in/inter page linking / scrolling with hashes in EmberJS</p>
+
+
+      <h6> language: TypeScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-url-hash-polyfill/stargazers" title="Stargazers" target="_blank">13</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ember-url-hash-polyfill/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/eslint-config-crowdstrike" title="GitHub Project" target="_blank">eslint-config-crowdstrike</a></h2>
+     <h5>Updated: November 08, 2021</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>ESLint config for CrowdStrike</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/eslint-config-crowdstrike/stargazers" title="Stargazers" target="_blank">3</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/eslint-config-crowdstrike/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/eslint-config-crowdstrike-node" title="GitHub Project" target="_blank">eslint-config-crowdstrike-node</a></h2>
+     <h5>Updated: November 08, 2021</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>ESLint Node.js config for CrowdStrike</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/eslint-config-crowdstrike-node/stargazers" title="Stargazers" target="_blank">3</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/eslint-config-crowdstrike-node/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falcon-helm" title="GitHub Project" target="_blank">falcon-helm</a></h2>
+     <h5>Updated: July 22, 2022</h5>
+     <h5>Created: January 13, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Helm Charts for running CrowdStrike Falcon with Kubernetes</p>
+
+      <h6> tags: chart, container, helm, k8s, kubernetes, security, sensor </h6>
+
+
+      <h6> language: Smarty </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-helm/stargazers" title="Stargazers" target="_blank">34</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-helm/network" title="Forks" target="_blank">26</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falcon-integration-gateway" title="GitHub Project" target="_blank">falcon-integration-gateway</a></h2>
+     <h5>Updated: July 25, 2022</h5>
+     <h5>Created: March 17, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Falcon Integration Gateway (FIG)</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-integration-gateway/stargazers" title="Stargazers" target="_blank">13</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-integration-gateway/network" title="Forks" target="_blank">11</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falcon-operator" title="GitHub Project" target="_blank">falcon-operator</a></h2>
+     <h5>Updated: July 27, 2022</h5>
+     <h5>Created: January 11, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+      <h6> tags: containers, k8s, kubernetes, operator, security, sensor </h6>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-operator/stargazers" title="Stargazers" target="_blank">20</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-operator/network" title="Forks" target="_blank">14</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falcon-orchestrator" title="GitHub Project" target="_blank">falcon-orchestrator</a></h2>
+     <h5>Updated: July 30, 2022</h5>
+     <h5>Created: April 22, 2016</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike Falcon Orchestrator provides automated workflow and response capabilities</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-orchestrator/stargazers" title="Stargazers" target="_blank">174</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-orchestrator/network" title="Forks" target="_blank">57</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falcon-scripts" title="GitHub Project" target="_blank">falcon-scripts</a></h2>
+     <h5>Updated: June 04, 2022</h5>
+     <h5>Created: September 15, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Scripts to install and configure Falcon Sensor</p>
+
+      <h6> tags: scripting, scripts </h6>
+
+
+      <h6> language: PowerShell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-scripts/stargazers" title="Stargazers" target="_blank">20</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falcon-scripts/network" title="Forks" target="_blank">18</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falconapictl" title="GitHub Project" target="_blank">falconapictl</a></h2>
+     <h5>Updated: December 01, 2021</h5>
+     <h5>Created: December 01, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falconapictl/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falconjs" title="GitHub Project" target="_blank">falconjs</a></h2>
+     <h5>Updated: July 09, 2022</h5>
+     <h5>Created: January 09, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>CrowdStrike Falcon API JS library for the browser and Node</p>
+
+      <h6> tags: api, browser, javascript, node, typescript </h6>
+
+
+      <h6> language: TypeScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falconjs/stargazers" title="Stargazers" target="_blank">4</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falconjs/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/falconpy" title="GitHub Project" target="_blank">falconpy</a></h2>
+     <h5>Updated: July 28, 2022</h5>
+     <h5>Created: November 12, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>The CrowdStrike Falcon SDK for Python</p>
+
+      <h6> tags: api, crowdstrike, crowdstrike-apis, crowdstrike-falcon, devsecops, falcon, falconpy, linux, mac, oauth2, python, python-3, python3, python310, python36, python37, python38, python39, sdk, windows </h6>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falconpy/stargazers" title="Stargazers" target="_blank">139</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/falconpy/network" title="Forks" target="_blank">52</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/faltest" title="GitHub Project" target="_blank">faltest</a></h2>
+     <h5>Updated: May 27, 2022</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>A different take on WebDriver browser testing</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/faltest/stargazers" title="Stargazers" target="_blank">23</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/faltest/network" title="Forks" target="_blank">9</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/fortio" title="GitHub Project" target="_blank">fortio</a></h2>
+     <h5>Updated: April 07, 2022</h5>
+     <h5>Created: July 13, 2017</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/fortio/stargazers" title="Stargazers" target="_blank">2</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/fortio/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/go-metrics-sliding-window" title="GitHub Project" target="_blank">go-metrics-sliding-window</a></h2>
+     <h5>Updated: July 28, 2022</h5>
+     <h5>Created: June 29, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>A sliding window sampling implementation for the rcrowley/go-metrics library.</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/go-metrics-sliding-window/stargazers" title="Stargazers" target="_blank">22</a>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/gofalcon" title="GitHub Project" target="_blank">gofalcon</a></h2>
+     <h5>Updated: June 17, 2022</h5>
+     <h5>Created: January 13, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Golang-based SDK to CrowdStrike's APIs</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/gofalcon/stargazers" title="Stargazers" target="_blank">21</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/gofalcon/network" title="Forks" target="_blank">19</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/gotel" title="GitHub Project" target="_blank">gotel</a></h2>
+     <h5>Updated: December 23, 2021</h5>
+     <h5>Created: August 05, 2014</h5>
+      </div>
+      <div class="project-body">
+          <p>GoTel - Scheduled job monitoring</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/gotel/stargazers" title="Stargazers" target="_blank">36</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/gotel/network" title="Forks" target="_blank">11</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/helpful-links" title="GitHub Project" target="_blank">helpful-links</a></h2>
+     <h5>Updated: June 13, 2022</h5>
+     <h5>Created: May 18, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>List of helpful publicly available CrowdStrike material.</p>
+
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/helpful-links/stargazers" title="Stargazers" target="_blank">3</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/helpful-links/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/image-scan-example" title="GitHub Project" target="_blank">image-scan-example</a></h2>
+     <h5>Updated: January 31, 2022</h5>
+     <h5>Created: June 04, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: HCL </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/image-scan-example/stargazers" title="Stargazers" target="_blank">2</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/image-scan-example/network" title="Forks" target="_blank">9</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/integrations" title="GitHub Project" target="_blank">integrations</a></h2>
+     <h5>Updated: May 13, 2022</h5>
+     <h5>Created: October 27, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Code behind integrations.crowdstrike.com</p>
+
+
+      <h6> language: HTML </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/integrations/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ivan" title="GitHub Project" target="_blank">ivan</a></h2>
+     <h5>Updated: February 17, 2022</h5>
+     <h5>Created: January 24, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ivan/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ivan/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/kafka-replicator" title="GitHub Project" target="_blank">kafka-replicator</a></h2>
+     <h5>Updated: April 02, 2022</h5>
+     <h5>Created: April 06, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Kafka replicator is a tool used to mirror and backup Kafka topics across regions</p>
+
+      <h6> tags: aws, kafka, parquet, replication, s3 </h6>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/kafka-replicator/stargazers" title="Stargazers" target="_blank">9</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/kafka-replicator/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/lzmadiffpatch" title="GitHub Project" target="_blank">lzmadiffpatch</a></h2>
+     <h5>Updated: September 20, 2021</h5>
+     <h5>Created: September 20, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Tools to make and apply binary diffs, based on LZMA compression.</p>
+
+      <h6> tags: binary-diffs </h6>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/lzmadiffpatch/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/mellon" title="GitHub Project" target="_blank">mellon</a></h2>
+     <h5>Updated: January 08, 2021</h5>
+     <h5>Created: December 05, 2016</h5>
+      </div>
+      <div class="project-body">
+          <p>TBA</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/mellon/stargazers" title="Stargazers" target="_blank">4</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/mellon/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/monorepo-next" title="GitHub Project" target="_blank">monorepo-next</a></h2>
+     <h5>Updated: January 06, 2022</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>Detach monorepo packages from normal linking</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/monorepo-next/stargazers" title="Stargazers" target="_blank">9</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/monorepo-next/network" title="Forks" target="_blank">7</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/omigo-data-analytics" title="GitHub Project" target="_blank">omigo-data-analytics</a></h2>
+     <h5>Updated: July 28, 2022</h5>
+     <h5>Created: November 05, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Data Analytics Library for Python</p>
+
+      <h6> tags: analytics, aws, data-analysis, data-science, data-visualization, machine-learning, pandas, python, statistics, tsv </h6>
+
+
+      <h6> language: Jupyter Notebook </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/omigo-data-analytics/stargazers" title="Stargazers" target="_blank">11</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/omigo-data-analytics/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/promwatch" title="GitHub Project" target="_blank">promwatch</a></h2>
+     <h5>Updated: March 08, 2022</h5>
+     <h5>Created: February 04, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>PromWatch is an exporter for CloudWatch metrics in a Prometheus compatible format.</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/promwatch/stargazers" title="Stargazers" target="_blank">2</a>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/psfalcon" title="GitHub Project" target="_blank">psfalcon</a></h2>
+     <h5>Updated: July 28, 2022</h5>
+     <h5>Created: September 25, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>PowerShell for CrowdStrike's OAuth2 APIs</p>
+
+      <h6> tags: api, api-client, crowdstrike, falcon, oauth2-client, powershell, powershell-module </h6>
+
+
+      <h6> language: PowerShell </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/psfalcon/stargazers" title="Stargazers" target="_blank">177</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/psfalcon/network" title="Forks" target="_blank">33</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/puppet-falcon" title="GitHub Project" target="_blank">puppet-falcon</a></h2>
+     <h5>Updated: July 21, 2022</h5>
+     <h5>Created: February 16, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: Ruby </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/puppet-falcon/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/puppet-falcon/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/pyspresso" title="GitHub Project" target="_blank">pyspresso</a></h2>
+     <h5>Updated: December 01, 2021</h5>
+     <h5>Created: June 14, 2016</h5>
+      </div>
+      <div class="project-body">
+          <p>The pyspresso package is a Python-based framework for debugging Java.</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/pyspresso/stargazers" title="Stargazers" target="_blank">50</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/pyspresso/network" title="Forks" target="_blank">12</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/ratelimiter" title="GitHub Project" target="_blank">ratelimiter</a></h2>
+     <h5>Updated: January 25, 2022</h5>
+     <h5>Created: February 23, 2015</h5>
+      </div>
+      <div class="project-body">
+          <p>LRU based RateLimiter for GoLang with increments</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ratelimiter/stargazers" title="Stargazers" target="_blank">16</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/ratelimiter/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/remark-preset-lint-crowdstrike" title="GitHub Project" target="_blank">remark-preset-lint-crowdstrike</a></h2>
+     <h5>Updated: January 22, 2022</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>remark-lint preset for CrowdStrike</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/remark-preset-lint-crowdstrike/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/rusty-falcon" title="GitHub Project" target="_blank">rusty-falcon</a></h2>
+     <h5>Updated: July 20, 2022</h5>
+     <h5>Created: October 12, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Rust bindings for CrowdStrike Falcon API</p>
+
+
+      <h6> language: Rust </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/rusty-falcon/stargazers" title="Stargazers" target="_blank">3</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/rusty-falcon/network" title="Forks" target="_blank">3</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/tailwind-toucan-base" title="GitHub Project" target="_blank">tailwind-toucan-base</a></h2>
+     <h5>Updated: July 01, 2022</h5>
+     <h5>Created: September 14, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Base Tailwind config for the Toucan design system.</p>
+
+      <h6> tags: tailwind </h6>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/tailwind-toucan-base/stargazers" title="Stargazers" target="_blank">9</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/tailwind-toucan-base/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/template-gitbook-workshop" title="GitHub Project" target="_blank">template-gitbook-workshop</a></h2>
+     <h5>Updated: November 08, 2021</h5>
+     <h5>Created: December 19, 2020</h5>
+      </div>
+      <div class="project-body">
+          <p>Code behind https://crowdstrike.gitbook.io/template-gitbook-workshop/</p>
+
+
+      <h6> language: CSS </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/template-gitbook-workshop/stargazers" title="Stargazers" target="_blank">3</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/template-gitbook-workshop/network" title="Forks" target="_blank">4</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/terraform-nutanix-script" title="GitHub Project" target="_blank">terraform-nutanix-script</a></h2>
+     <h5>Updated: November 03, 2021</h5>
+     <h5>Created: October 25, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: HCL </h6>
+
+      </div>
+      <div class="project-d">
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/terraform-nutanix-script/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/travel-laptop" title="GitHub Project" target="_blank">travel-laptop</a></h2>
+     <h5>Updated: June 10, 2022</h5>
+     <h5>Created: October 27, 2015</h5>
+      </div>
+      <div class="project-body">
+          <p>Auxiliary documentation and scripts around "A Reasonably Safe Travel Burner Laptop"</p>
+
+
+      <h6> language: C++ </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/travel-laptop/stargazers" title="Stargazers" target="_blank">218</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/travel-laptop/network" title="Forks" target="_blank">24</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/upb-cloud-workshop" title="GitHub Project" target="_blank">upb-cloud-workshop</a></h2>
+     <h5>Updated: July 25, 2022</h5>
+     <h5>Created: July 25, 2022</h5>
+      </div>
+      <div class="project-body">
+          <p>A cloud workshop organised by Crowdstrike in Bucharest, Romania for the students of Universitatea Politehnica Bucharest</p>
+
+
+      <h6> language: Go </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/upb-cloud-workshop/stargazers" title="Stargazers" target="_blank">2</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/upb-cloud-workshop/network" title="Forks" target="_blank">2</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/verror-extra" title="GitHub Project" target="_blank">verror-extra</a></h2>
+     <h5>Updated: October 12, 2021</h5>
+     <h5>Created: September 09, 2019</h5>
+      </div>
+      <div class="project-body">
+          <p>verror wrapper with extras™</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/verror-extra/stargazers" title="Stargazers" target="_blank">1</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/verror-extra/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/xwf-yara-scanner" title="GitHub Project" target="_blank">xwf-yara-scanner</a></h2>
+     <h5>Updated: July 23, 2022</h5>
+     <h5>Created: July 27, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p></p>
+
+
+      <h6> language: C </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/xwf-yara-scanner/stargazers" title="Stargazers" target="_blank">73</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/xwf-yara-scanner/network" title="Forks" target="_blank">14</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/yargs-help-output" title="GitHub Project" target="_blank">yargs-help-output</a></h2>
+     <h5>Updated: January 05, 2022</h5>
+     <h5>Created: February 17, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>Update docs to include the full output of yargs help</p>
+
+
+      <h6> language: JavaScript </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/yargs-help-output/stargazers" title="Stargazers" target="_blank">2</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/yargs-help-output/network" title="Forks" target="_blank">1</a>
+
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title"><h2><a class="project-link" href="https://github.com/CrowdStrike/zscaler-FalconX-integration" title="GitHub Project" target="_blank">zscaler-FalconX-integration</a></h2>
+     <h5>Updated: July 19, 2022</h5>
+     <h5>Created: March 15, 2021</h5>
+      </div>
+      <div class="project-body">
+          <p>This is the integration to feed Falcon X IOC data into zscaler's platform</p>
+
+
+      <h6> language: Python </h6>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/zscaler-FalconX-integration/stargazers" title="Stargazers" target="_blank">4</a>
+
+      </div>
+      <div class="project-d">
+
+          <a class="project-link" href="https://github.com/CrowdStrike/zscaler-FalconX-integration/network" title="Forks" target="_blank">8</a>
+
+      </div>
+    </div>
+
+</div>
+</section>
+
+<script>
+function filterFunction() {
+    var input, filter, cardDeck, card, cardTitle, cardDis, i, txtValue;
+    input = document.getElementById("Input");
+    filter = input.value.toUpperCase();
+    cardDeck = document.getElementById("project-list");
+    card = cardDeck.getElementsByClassName("project");
+    for (i = 0; i < card.length; i++) {
+        cardTitle = card[i].getElementsByClassName("project-title")[0].textContent || card[i].getElementsByClassName("project-body")[0].innerText;
+        cardDis = card[i].getElementsByClassName("project-body")[0].textContent || card[i].getElementsByClassName("project-body")[0].innerText;
+        txtValue = cardTitle + " " + cardDis;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            card[i].style.display = "";
+        } else {
+            card[i].style.display = "none";
+        }
+    }
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("project-title");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    var foot = panel.nextElementSibling;
+    var link = foot.children[0].href;
+    if (window.matchMedia("(min-width: 730px)").matches){
+        window.open(link, "_blank");
+      }
+    if (panel.style.display === "block") {
+        panel.style.display = "none";
+    } 
+    else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+	
+	
+          
+	  
+        
+          
+	  
+        
+  
+    <nav class="md-footer__inner md-grid" aria-label="footer.title">
+      
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      
+        
+        <a href="../contributing/" class="md-footer__link md-footer__link--next" aria-label="Next: Contributing" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Contributing
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+    <div class="md-copyright__highlight" style="display: inline-block;">
+	    Copyright &copy; 2025 CrowdStrike Inc. 
+    </div>
+    <div style="display: inline-block; margin-left: 1em" >
+	    <h4><a href="https://www.crowdstrike.com/contact-us"/>Contact Us</a></h4>
+    </div>
+    <div style="display: inline-block; margin-left: 1em;">
+            <h4><a href="https://www.crowdstrike.com/privacy-notice"/>Privacy</a></h4>
+    </div>
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/crowdstrike" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://instagram.com/crowdstrike" target="_blank" rel="noopener" title="instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/company/crowdstrike" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/crowdstrike" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCsRdY9CtEVWTNO4ulwfzqVA" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tabs.sticky", "toc.integrate", "toc.follow"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
